@@ -1,6 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .wrapper {
     width: 90%;
     margin-left: 5%;
+    /*position: absolute;
+    bottom: 200px;*/
 }
 
 
@@ -17,53 +24,73 @@ a, a:visited {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: #EEEEEE;
+    padding: 10px 10px 10px 10px;
+}
+
 
 /*********************/
 /*navbar styles*/
 /*********************/
 
-.navbar {
-    /*border-bottom: solid black 3px;*/
-    width: 80%;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    margin-left: 10%;
-    margin-bottom: 25px;
-}
-
-.navbar ul {
-    list-style-type: none;
-    display: inline-block;
-    float: right;
-}
-
-.navbar ul li, .navbar h3 {
-    display: inline-block;
-    font-family: Montserrat, sans-serif;
-    font-weight: 700;
-    font-size: 20pt;
-    padding: 10px 20px 10px 20px;
-}
-
-.navbar ul li:nth-child(3) {
-    background-color: orange;
-    color: white;
-}
-
-
-
-.hero-left h1 {
-    font-family: Montserrat, sans-serif;
-    font-weight: 700;
-    font-size: 45pt;
-    text-transform: uppercase;
-}
-
-.hero-left h4 {
-    font-family: Muli, sans-serif;
+.nav{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    list-style:none;
+    text-align:center;
+    font-family: Roboto Mono;
     font-weight: 400;
-    font-size: 15pt;
+    font-size: 14pt;
+}
+.nav li{
+    display:inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.hero {
+    padding-top: 18%;
+    padding-bottom: 18%;
+    background-image: url();
+}
+
+.hero h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 70pt;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.hero h4 {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 30pt;
     line-height: 135%;
+}
+
+.portfolio h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 50pt;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+hr {
+    margin-bottom: 60px;
+    width: 15%;
+    background-color: black;
+}
+
+
+
+
+.row {
+    height: 500px;
 }
 
 
@@ -85,7 +112,7 @@ a, a:visited {
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 2.5%;
+	margin: 1% 0 1% 3%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -95,22 +122,27 @@ a, a:visited {
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 
-/*  GRID OF FOUR  */
-.span_4_of_4 {
-	width: 100%;
-}
-.span_3_of_4 {
-	width: 74.37%;
-}
-.span_2_of_4 {
-	width: 48.75%;
-}
-.span_1_of_4 {
-	width: 23.12%;
-}
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 65.66%; }
+.span_1_of_3 { width: 31.33%; }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
-	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+    .nav li {
+        width: 90%;
+        display: block;
+        text-align: right;
+        padding: 10px 0 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero h4 {
+        font-size: 20pt;
+    }
 }
