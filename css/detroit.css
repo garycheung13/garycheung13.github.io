@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.left {
+    background-image: url("backgrounds/Detroit.png");
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    background-position: -310px 0px;
+    height: 1080px;
+    position: fixed;
+}
+
+
+/*@media only screen and (max-width: 768px) {
+    .left {
+        background-position: 100px 0px;
+    }
+}*/
+
+.nav{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    list-style:none;
+    text-align:right;
+    font-family: Roboto Mono;
+    font-weight: 400;
+    font-size: 14pt;
+}
+.nav li{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+.left h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 45pt;
+    color: white;
+    text-align: right;
+    width: 95%;
+    text-transform: uppercase;
+    margin-top: 40%;
+}
+
+.left h3 {
+    color: white;
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 400;
+    font-size: 28pt;
+    text-align: right;
+    width: 95%;
+}
+
+.right {
+    height: 1080px;
+    position: absolute;
+    left: 50%;
+}
+
+.right h4 {
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 22pt;
+    padding-bottom: 30px;
+    padding-left: 2.5%;
+}
+
+.right h4:nth-child(1) {
+    padding-top: 100px;
+}
+
+.right p {
+    padding-left: 2.5%;
+    padding-bottom: 50px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 14pt;
+    width: 85%;
+}
+
+
+
+
+
+
+
+
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	/*margin: 1% 0 1% 0%;*/
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 50%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
