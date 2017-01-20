@@ -86,13 +86,24 @@ hr {
     background-color: black;
 }
 
-
-
-
 .row {
     height: 500px;
 }
 
+.portfolio h5 {
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 700;
+    font-size: 24pt;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.portfolio h6 {
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 400;
+    font-size: 15pt;
+    color: grey;
+}
 
 
 
