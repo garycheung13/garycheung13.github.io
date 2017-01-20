@@ -8,6 +8,20 @@ a, a:visited {
     text-decoration: none;
 }
 
+img {
+    max-width: 90%;
+    max-height: 90%;
+    padding-left: 2.5%;
+    padding-bottom: 50px;
+    /*text-align: center;
+    display: block;
+    margin: auto;*/
+    /*background-color: black;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;*/
+}
+
 
 .left {
     background-image: url("backgrounds/Detroit.png");
@@ -155,10 +169,21 @@ a, a:visited {
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 992px) {
 	.col {
 		margin: 1% 0 1% 0%;
 	}
+
+    .span_2_of_2, .span_1_of_2 { width: 100%; }
+
+    .left {
+        position: static;
+        height: 700px;
+    }
+
+    .right {
+        position: static;
+    }
 }
 
 @media only screen and (max-width: 480px) {
