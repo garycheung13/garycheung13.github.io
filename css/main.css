@@ -18,6 +18,9 @@ img {
     display: block;
     margin: auto;
     background-color: black;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 a, a:visited {
@@ -25,8 +28,8 @@ a, a:visited {
     text-decoration: none;
 }
 
-a:hover {
-    opacity: 0.7;
+img:hover {
+    transform: scale(1.1);
 }
 
 /*a:hover {
