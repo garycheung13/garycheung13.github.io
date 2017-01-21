@@ -12,10 +12,10 @@
 
 
 img {
+    padding-top: 50px;
+    padding-bottom: 50px;
     max-width: 100%;
     max-height: 100%;
-    /*padding-top: 100px;
-    transform: scale(1.2);*/
     text-align: center;
     display: block;
     margin: auto;
@@ -70,7 +70,6 @@ a:hover {
     font-weight: 400;
     font-size: 18pt;
     padding-top: 30px;
-    width: 75%;
     line-height: 145%;
 }
 
@@ -98,7 +97,13 @@ a:hover {
     line-height: 145%;
 }
 
+.left {
+    text-align: right;
+}
 
+.image {
+    background-color: #D4D0AE;
+}
 
 
 

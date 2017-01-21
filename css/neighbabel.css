@@ -20,10 +20,6 @@ img {
     /*text-align: center;
     display: block;
     margin: auto;*/
-    /*background-color: black;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;*/
 }
 
 
@@ -35,13 +31,6 @@ img {
     height: 1080px;
     position: fixed;
 }
-
-
-/*@media only screen and (max-width: 768px) {
-    .left {
-        background-position: 100px 0px;
-    }
-}*/
 
 .nav{
     padding-top: 2%;
