@@ -29,7 +29,6 @@ a:hover {
 }
 
 
-
 .nav{
     padding-top: 2%;
     padding-bottom: 5%;
@@ -101,8 +100,14 @@ a:hover {
 }
 
 @media only screen and (max-width: 480px) {
+    .nav {
+        padding-right: 0px;
+        /*overwrite wrapper on mobile*/
+        width: 95%;
+    }
+
     .nav li {
-        width: 90%;
+        width: 95%;
         display: block;
         text-align: right;
         padding: 10px 0 10px 0;

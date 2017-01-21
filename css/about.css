@@ -147,8 +147,9 @@ button:hover {
     }
 
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+    .nav {padding-right: 0px;}
     .nav li {
-        width: 90%;
+        width: 95%;
         display: block;
         text-align: right;
         padding: 10px 0 10px 0;
