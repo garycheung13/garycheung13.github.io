@@ -51,6 +51,13 @@ a:hover {
     padding-right: 20px;
 }
 
+.nav li:nth-child(1) {
+    float: left;
+    font-weight: 700;
+    padding-left: 0;
+    font-size: 16pt;
+}
+
 .wrapper h6 {
     font-family: Roboto Mono, monospace;
     font-size: 12pt;
@@ -143,11 +150,22 @@ a:hover {
 		margin: 1% 0 1% 0%;
 	}
 
+    .nav {
+        padding-right: 0px;
+        /*overwrite wrapper on mobile*/
+        width: 95%;
+    }
+
     .nav li {
-        width: 90%;
+        width: 95%;
         display: block;
         text-align: right;
         padding: 10px 0 10px 0;
+    }
+
+    .nav li:nth-child(1) {
+        padding-left: 0;
+        float: none;
     }
 
     .wrapper h1 {
