@@ -62,12 +62,13 @@ img:hover {
     padding-left: 20px;
     padding-right: 20px;
 }
-/*
-.nav li:nth-child(4) {
-    border: solid black 2px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}*/
+
+.nav li:nth-child(1) {
+    float: left;
+    font-weight: 700;
+    padding-left: 0;
+    font-size: 16pt;
+}
 
 .hero {
     padding-top: 13%;
@@ -178,6 +179,12 @@ hr {
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
     .nav {
         padding-right: 0px;
+        width: 95%;
+    }
+
+    .nav li:nth-child(1) {
+        padding-left: 0;
+        float: none;
     }
 
     .nav li {

@@ -58,8 +58,10 @@ img {
     padding-right: 20px;
 }
 
-
-
+.nav li:nth-child(1) {
+    font-weight: 700;
+    font-size: 16pt;
+}
 
 .left h1 {
     font-family: Roboto, sans-serif;

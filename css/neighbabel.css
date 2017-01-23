@@ -47,12 +47,14 @@ img {
     padding-right: 20px;
 }
 
-
-
+.nav li:nth-child(1) {
+    font-weight: 700;
+    font-size: 16pt;
+}
 
 .left h1 {
     font-family: Roboto, sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 45pt;
     color: white;
     text-align: right;

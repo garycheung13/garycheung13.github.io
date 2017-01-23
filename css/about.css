@@ -17,10 +17,6 @@ img {
     text-align: center;
     display: block;
     margin: auto;
-    /*background-color: black;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;*/
 }
 
 a, a:visited {
@@ -52,6 +48,15 @@ a:hover {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+
+.nav li:nth-child(1) {
+    float: left;
+    font-weight: 700;
+    padding-left: 0;
+    font-size: 16pt;
+}
+
 
 
 .wrapper h1 {
@@ -147,12 +152,17 @@ button:hover {
     }
 
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
-    .nav {padding-right: 0px;}
+    .nav {padding-right: 0px; width:95%;}
     .nav li {
         width: 95%;
         display: block;
         text-align: right;
         padding: 10px 0 10px 0;
+    }
+
+    .nav li:nth-child(1) {
+        padding-left: 0;
+        float: none;
     }
 
     .mobile-block {
