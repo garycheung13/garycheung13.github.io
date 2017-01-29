@@ -130,6 +130,14 @@ img {
     line-height: 135%;
 }
 
+.right ul {
+    padding-left: 30px;
+    list-style-type: none;
+}
+
+.right ul>li>p {
+    padding-bottom: 30px;
+}
 
 .notice {
     font-family: Roboto Mono, sans-serif;
@@ -199,6 +207,15 @@ img {
 
     .right p {
         width: 95%;
+    }
+
+    .right ul {
+        padding-left: 10px;
+    }
+
+    .right ul>li{
+        width: 95%;
+    }
     }
 }
 
