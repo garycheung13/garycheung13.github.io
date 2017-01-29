@@ -31,7 +31,7 @@ img {
     background-image: url("backgrounds/Detroit.png");
     background-size: 1800px;
     background-repeat: no-repeat;
-    background-position: -310px 0px;
+    background-position: -550px -70px;
     height: 1080px;
     position: fixed;
 }
@@ -198,7 +198,18 @@ img {
 
     .left {
         position: static;
-        height: 700px;
+        height: 600px;
+        background-position: -610px -120px;
+        margin-top: 0;
+    }
+
+    .left h1 {
+        font-size: 38pt;
+        padding-bottom: 20px;
+    }
+
+    .left h3 {
+        font-size: 22pt;
     }
 
     .right {
@@ -213,9 +224,9 @@ img {
         padding-left: 10px;
     }
 
-    .right ul>li{
+    /*.right ul>li{
         width: 95%;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 480px) {

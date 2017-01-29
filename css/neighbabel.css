@@ -179,7 +179,9 @@ img {
 
     .left {
         position: static;
-        height: 700px;
+        height: 500px;
+        /*not sure why this is necessary, but okay*/
+        margin-top: 0;
     }
 
     .right {
@@ -188,6 +190,15 @@ img {
 
     .right p {
         width: 95%;
+    }
+
+    .left h1 {
+        font-size: 38pt;
+        padding-bottom: 20px;
+    }
+
+    .left h3 {
+        font-size: 22pt;
     }
 }
 
