@@ -59,7 +59,9 @@ a:hover {
     font-size: 16pt;
 }
 
-
+.main-text {
+    text-align: center;
+}
 
 .main-text h6 {
     font-family: Roboto Mono, monospace;
@@ -88,7 +90,7 @@ a:hover {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14pt;
-    width: 85%;
+    /*width: 85%;*/
     line-height: 135%;
     padding-bottom: 50px;
 }
@@ -104,6 +106,7 @@ a:hover {
 @media only screen and (min-width: 1367px) {
     .wrapper p {
         width: 75%;
+        margin-left: 12.5%;
     }
 }
 

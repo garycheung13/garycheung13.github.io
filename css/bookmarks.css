@@ -83,6 +83,10 @@ a:hover {
     line-height: 135%;
 }
 
+.main-text {
+    text-align: center;
+}
+
 .back {
     font-family: Roboto Mono, sans-serif;
     font-size: 14pt;
@@ -96,6 +100,7 @@ a:hover {
 @media only screen and (min-width: 1224px) {
     .wrapper p {
         width: 75%;
+        margin-left: 12.5%;
     }
 }
 
