@@ -107,8 +107,9 @@ button:hover {
     color: white;
 }
 
-
-
+button>a:hover {
+    text-decoration: none;
+}
 
 
 /*  SECTIONS  */
