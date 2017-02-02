@@ -90,7 +90,7 @@ a:hover {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14pt;
-    width: 85%;
+    /*width: 85%;*/
     line-height: 135%;
     padding-bottom: 50px;
 }

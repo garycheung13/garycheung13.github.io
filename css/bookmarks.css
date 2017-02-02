@@ -79,7 +79,7 @@ a:hover {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14pt;
-    width: 95%;
+    /*width: 95%;*/
     line-height: 135%;
 }
 
@@ -108,7 +108,8 @@ a:hover {
     .nav {
         padding-right: 0px;
         /*overwrite wrapper on mobile*/
-        width: 95%;
+        width: 90%;
+        padding-left: 5%;
     }
 
     .nav li {
