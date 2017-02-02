@@ -92,7 +92,16 @@ a:hover {
     text-align: right;
 }
 
-
+.back {
+    font-family: Roboto Mono, sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-right: 10%;
+    display: block;
+    text-align: right;
+}
 
 /*  SECTIONS  */
 .section {
