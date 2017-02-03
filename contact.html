@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="scripts/jquery.js"></script>
+    <script>
+    $(function() {
+$('a[href^="mailto:"]').each(function() {
+this.href = this.href.replace('(at)', '@').replace(/\(dot\)/g, '.');
+// Remove this line if you don't want to set the email address as link text:
+this.innerHTML = this.href.replace('mailto:', '');
+});
+});
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Arimo:700|Roboto+Mono:400,700|Roboto:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact me</title>
+</head>
+<body>
+    <ul class=" wrapper nav">
+        <li>ceegary.com</li>
+        <li>
+            <a href="http://www.ceegary.com">//Home</a>
+        </li>
+        <li>
+            <a href="http://www.ceegary.com/about">//About Me</a>
+        </li>
+        <li>
+            <a href="http://wwww.ceegary.com/contact">//Connect</a>
+        </li>
+    </ul>
+
+    <div class="wrapper">
+        <div>
+            <h1>Contact Me</h1>
+            <hr size="8">
+            <p>Wanna get in contact? Send me an email at <a href="mailto:gcheung(at)umich(dot)edu">gcheung at umich dot edu</a></p>
+            <p>My phone numer can be found on my resume under "About me"</p>
+
+        </div>
+    </div>
+</body>
+</html>
