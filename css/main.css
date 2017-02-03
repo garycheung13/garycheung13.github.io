@@ -10,6 +10,19 @@
     bottom: 200px;*/
 }
 
+.down {
+    padding-top: 8%;
+    margin: auto;
+    bottom: 0;
+    text-align: center;
+    font-size: 15pt;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+}
+@-webkit-keyframes bounce {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+	80% { -webkit-transform: translateY(-10px); }
+}
 
 img {
     max-width: 100%;
@@ -72,7 +85,7 @@ img:hover {
 
 .hero {
     padding-top: 13%;
-    padding-bottom: 18%;
+    padding-bottom: 8%;
     background-image: url();
 }
 
@@ -129,6 +142,10 @@ hr {
 
 
 
+.down h1 {
+    font-size: 15pt;
+    padding-bottom: 0px;
+}
 
 
 /*  SECTIONS  */
