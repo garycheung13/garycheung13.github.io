@@ -15,10 +15,11 @@ a:hover, .back:hover {
 img {
     max-width: 90%;
     max-height: 90%;
-    padding-left: 2.5%;
+    padding-top: 50px;
     padding-bottom: 50px;
-    /*text-align: center;
-    display: block;
+    padding-left: 2.5%;
+    text-align: center;
+    /*display: block;
     margin: auto;*/
 }
 
@@ -109,7 +110,7 @@ img {
     padding-top: 100px;
 }
 
-.right p {
+.right p, .feature-bullets li {
     padding-left: 2.5%;
     padding-bottom: 50px;
     font-family: Roboto, sans-serif;
@@ -119,12 +120,40 @@ img {
     line-height: 135%;
 }
 
+.feature-bullets {
+    list-style-type: none;
+}
+
+.feature-header {
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.tool-list ul {
+    list-style-type: none;
+}
+
+.tool-list ul li, .list-header {
+    font-family: Roboto, sans-serif;
+    padding-bottom: 5px;
+    color: grey;
+    font-size: 14pt;
+    font-weight: 400;
+    padding-left: 5%;
+}
+
+.list-header {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
 
 .notice {
     font-family: Roboto Mono, sans-serif;
     font-size: 12pt;
     font-weight: 700;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     padding-left: 2.5%;
     display: block;
 }
@@ -204,4 +233,7 @@ img {
 
 @media only screen and (max-width: 480px) {
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
+    .tool-list:nth-child(2) {
+        margin-top: 20px;
+    }
 }

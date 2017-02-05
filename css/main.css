@@ -50,10 +50,10 @@ img:hover {
     transform: scale(1.1);
 }
 
-/*a:hover {
-    background-color: #EEEEEE;
-    padding: 10px 10px 10px 10px;
-}*/
+.down h1 {
+    font-size: 15pt !important;
+    padding-bottom: 0px !important;
+}
 
 
 /*********************/
@@ -140,14 +140,6 @@ hr {
 
 
 
-
-
-.down h1 {
-    font-size: 15pt;
-    padding-bottom: 0px;
-}
-
-
 /*  SECTIONS  */
 .section {
 	clear: both;
@@ -194,6 +186,9 @@ hr {
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+    .down {
+        padding-top: 110px;
+    }
     .nav {
         padding-right: 0px;
         width: 95%;
@@ -213,6 +208,11 @@ hr {
 
     .hero h1 {
         font-size: 40px;
+    }
+
+    .down h1 {
+        font-weight: 400;
+        font-size: 8pt;
     }
 
     .portfolio h2 {
