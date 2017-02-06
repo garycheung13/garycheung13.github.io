@@ -1,6 +1,43 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin-left: 5%;
+    /*position: absolute;
+    bottom: 200px;*/
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.method-block {
+    display: flex;
+    align-items: center;
+}
+
+.method-big {
+    font-family: Roboto, sans-serif;
+    font-size: 30pt;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+
+.icon {
+    max-width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a, a:visited {
@@ -8,30 +45,16 @@ a, a:visited {
     text-decoration: none;
 }
 
-a:hover, .back:hover {
+
+a:hover {
     text-decoration: line-through;
 }
 
-img {
-    max-width: 90%;
-    max-height: 90%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 2.5%;
-    text-align: center;
-    /*display: block;
-    margin: auto;*/
-}
 
 
-.left {
-    background-image: url("backgrounds/hero_nb.jpg");
-    background-size: 1800px;
-    background-repeat: no-repeat;
-    background-position: -310px 0px;
-    height: 1080px;
-    position: fixed;
-}
+/*********************/
+/*navbar styles*/
+/*********************/
 
 .nav{
     padding-top: 2%;
@@ -41,83 +64,63 @@ img {
     font-family: Roboto Mono;
     font-weight: 400;
     font-size: 14pt;
+    padding-right: 2%;
 }
 .nav li{
-    padding-top: 20px;
+    display:inline;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .nav li:nth-child(1) {
+    float: left;
     font-weight: 700;
+    padding-left: 0;
     font-size: 16pt;
 }
 
-.left h1 {
-    font-family: Roboto, sans-serif;
-    font-weight: 800;
-    font-size: 45pt;
-    color: white;
-    text-align: right;
-    width: 95%;
-    text-transform: uppercase;
-    margin-top: 40%;
-}
-
-.left h3 {
-    color: white;
-    font-family: Roboto Mono, sans-serif;
-    font-weight: 400;
-    font-size: 28pt;
-    text-align: right;
-    width: 95%;
-}
-
-.right {
-    height: 1080px;
-    position: absolute;
-    left: 50%;
-}
-
-
-.right h6 {
-    font-family: Roboto Mono,sans-serif;
-    font-weight: 400;
+.main-text h6 {
+    font-family: Roboto Mono, monospace;
     font-size: 12pt;
+    font-weight: 400;
     text-decoration: underline;
-    padding-left: 2.5%;
     padding-bottom: 10px;
 }
 
-.right h2 {
+.main-text h1 {
     font-family: Roboto, sans-serif;
-    font-weight: 700;
-    font-size: 30pt;
-    padding-left: 2.5%;
+    font-weight: 800;
+    font-size: 35pt;
+}
+
+.main-text h3 {
+    font-family: Roboto Mono, monospace;
+    font-weight: 400;
+    font-size: 18pt;
+    padding-top: 20px;
     padding-bottom: 50px;
+    line-height: 145%;
 }
 
-.right h4 {
-    text-transform: uppercase;
+.main-text p, .feature-bullets li, .method-text {
     font-family: Roboto, sans-serif;
-    font-weight: 700;
-    font-size: 22pt;
-    padding-bottom: 30px;
-    padding-left: 2.5%;
-}
-
-.right h4:nth-child(1) {
-    padding-top: 100px;
-}
-
-.right p, .feature-bullets li {
-    padding-left: 2.5%;
-    padding-bottom: 50px;
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14pt;
-    width: 90%;
     line-height: 135%;
+    padding-bottom: 50px;
+}
+
+.method-text {
+    padding-bottom: 0px;
+}
+
+.main-text h4 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .feature-bullets {
@@ -130,43 +133,25 @@ img {
     margin-bottom: 15px;
 }
 
-.tool-list ul {
-    list-style-type: none;
-}
-
-.tool-list ul li, .list-header {
+button {
+    margin-bottom: 100px;
+    padding: 1% 5% 1% 5%;
+    background-color: transparent;
+    border: 2px solid black;
     font-family: Roboto, sans-serif;
-    padding-bottom: 5px;
-    color: grey;
-    font-size: 14pt;
     font-weight: 400;
-    padding-left: 5%;
-}
-
-.list-header {
-    display: inline-block;
-    margin-bottom: 8px;
-    font-weight: 700;
-}
-
-.notice {
-    font-family: Roboto Mono, sans-serif;
-    font-size: 12pt;
-    font-weight: 700;
-    padding-bottom: 30px;
-    padding-left: 2.5%;
-    display: block;
-}
-
-.back {
-    font-family: Roboto Mono, sans-serif;
     font-size: 14pt;
-    font-weight: 400;
-    padding-bottom: 50px;
-    padding-right: 10%;
-    display: block;
-    text-align: right;
 }
+
+button:hover {
+    color: #FFF;
+    background-color: #000;
+}
+
+button a:hover {
+    text-decoration: none;
+}
+
 
 /*  SECTIONS  */
 .section {
@@ -179,7 +164,7 @@ img {
 .col {
 	display: block;
 	float:left;
-	/*margin: 1% 0 1% 0%;*/
+	margin: 1% 0 1% 1.6%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -189,51 +174,55 @@ img {
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 
-/*  GRID OF TWO  */
-.span_2_of_2 {
+/*  GRID OF FOUR  */
+.span_4_of_4 {
 	width: 100%;
 }
-.span_1_of_2 {
-	width: 50%;
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.8%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 992px) {
-	.col {
-		margin: 1% 0 1% 0%;
-	}
-
-    .span_2_of_2, .span_1_of_2 { width: 100%; }
-
-    .left {
-        position: static;
-        height: 500px;
-        /*not sure why this is necessary, but okay*/
-        margin-top: 0;
-    }
-
-    .right {
-        position: static;
-    }
-
-    .right p {
-        width: 95%;
-    }
-
-    .left h1 {
-        font-size: 38pt;
-        padding-bottom: 20px;
-    }
-
-    .left h3 {
-        font-size: 22pt;
+@media only screen and (min-width: 1367px) {
+    .wrapper p, .feature-bullets {
+        width: 75%;
+        margin-left: 12.5%;
     }
 }
 
 @media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
-    .tool-list:nth-child(2) {
-        margin-top: 20px;
+
+    .col {  margin: 1% 0 1% 0%; }
+    .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+    .method-block {
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .method-big {
+        text-align: center;
+    }
+    .nav {
+        padding-right: 0px;
+        /*overwrite wrapper on mobile*/
+        width: 95%;
+    }
+
+    .nav li {
+        width: 95%;
+        display: block;
+        text-align: right;
+        padding: 10px 0 10px 0;
+    }
+
+    .nav li:nth-child(1) {
+        padding-left: 0;
+        float: none;
     }
 }
