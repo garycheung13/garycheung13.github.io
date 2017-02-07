@@ -17,6 +17,7 @@ img {
     text-align: center;
     display: block;
     margin: auto;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -141,6 +142,8 @@ button {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14pt;
+    display: block;
+    margin: auto;
 }
 
 button:hover {
@@ -190,7 +193,7 @@ button a:hover {
 
 
 @media only screen and (min-width: 1367px) {
-    .wrapper p, .feature-bullets {
+    .wrapper p, .feature-bullets, .main-text h4 {
         width: 75%;
         margin-left: 12.5%;
     }
