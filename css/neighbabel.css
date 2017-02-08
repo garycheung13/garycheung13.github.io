@@ -124,9 +124,40 @@ a:hover {
     text-transform: uppercase;
 }
 
-.feature-bullets {
-    list-style-type: none;
+.feature-box {
+    font-family: Roboto, sans-serif;
+    background-color: #E8E8E8;
+    font-weight: 400;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    font-size: 16pt;
+    margin-bottom: 100px;
+    height: 800px;
 }
+
+.feature-box-rev {
+    background: white;
+}
+
+.feature-text {
+    padding-left: 10%;
+    line-height: 150%;
+}
+
+.feature-text-rev {
+    padding-left: 0;
+    padding-right: 10%;
+    line-height: 150%;
+}
+
+.gif {
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: 50%;
+
+}
+
 
 .feature-header {
     font-weight: 700;
@@ -134,7 +165,9 @@ a:hover {
     margin-bottom: 15px;
 }
 
+
 button {
+    margin-top: 100px;
     margin-bottom: 100px;
     padding: 1% 5% 1% 5%;
     background-color: transparent;
@@ -142,8 +175,7 @@ button {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14pt;
-    display: block;
-    margin: auto;
+    /*display: block;*/
 }
 
 button:hover {
@@ -153,6 +185,10 @@ button:hover {
 
 button a:hover {
     text-decoration: none;
+}
+
+.button-box {
+    text-align: center;
 }
 
 
@@ -207,6 +243,24 @@ button a:hover {
         flex-wrap: wrap;
         margin-top: 50px;
     }
+    .feature-box {
+        -webkit-flex-wrap: wrap-reverse;;
+        -ms-flex-wrap: wrap-reverse;;
+        flex-wrap: wrap-reverse;;
+    }
+
+    .feature-box-rev {
+        flex-wrap: wrap;
+    }
+
+    .feature-text, .feature-text-rev {
+        font-size: 12pt;
+        padding-left: 2.5%;
+        padding-right: 10px;
+    }
+
+
+
 
     .method-big {
         text-align: center;
