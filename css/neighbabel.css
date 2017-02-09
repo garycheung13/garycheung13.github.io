@@ -23,6 +23,9 @@ img {
 
 .method-block {
     display: flex;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
     align-items: center;
 }
 
@@ -129,6 +132,9 @@ a:hover {
     background-color: #E8E8E8;
     font-weight: 400;
     display: flex;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
     -ms-align-items: center;
     align-items: center;
     font-size: 16pt;
@@ -240,17 +246,21 @@ button a:hover {
     .col {  margin: 1% 0 1% 0%; }
     .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
     .method-block {
-        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
         margin-top: 50px;
     }
     .feature-box {
-        -webkit-flex-wrap: wrap-reverse;;
-        -ms-flex-wrap: wrap-reverse;;
-        flex-wrap: wrap-reverse;;
+        -webkit-flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
     }
 
     .feature-box-rev {
-        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
     }
 
     .feature-text, .feature-text-rev {
