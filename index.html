@@ -4,126 +4,221 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Arimo:700|Roboto+Mono:400,700|Roboto:400,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Gary Cheung</title>
+    <!-- change to https before publishing -->
+    <script src="http://use.typekit.net/oaq6fca.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="scripts/jquery.js"></script>
+    <title>Gary Cheung Portfolio</title>
 </head>
 <body>
-    <ul class=" wrapper nav">
-        <li>Gary Cheung</li>
+    <ul class="navbar container">
         <li>
-            <a href="http://www.ceegary.com">//Home</a>
+            <a href="http://ceegary.com">Gary Cheung</a>
+        </li>
+        <li class="highlightable">
+            <a href="#portfolio">Portfolio</a>
+        </li>
+        <li class="highlightable">
+            <a href="#about">About</a>
+        </li>
+        <li class="highlightable">
+            <a href="#contact">Contact</a>
         </li>
         <li>
-            <a href="http://www.ceegary.com/about">//About Me</a>
-        </li>
-        <li>
-            <a href="http://www.ceegary.com/contact">//Connect</a>
-        </li>
-        <li>
-            <a href="resume.html">//Resume</a>
+            <a href="assets/gc_resume.pdf">Resume</a>
         </li>
     </ul>
 
-<!--    <div class="wrapper hero">
-        <h1>Gary Cheung</h1>
-        <h4>Designer, Artist and Coffee enthusiast.<br>Scroll down to view some of my recent projects.</h4>
-        <div class="down">
-
-            <h1>Scroll Down</h1>
-            <a href="#portfolio">
-                <i class="fa fa-angle-down fa-4x" aria-hidden="true"></i>
-            </a>
+    <div class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Gary Cheung</h1>
+                <h2 class="sub-head">UX | Graphic | Illustration</h2>
+            </div>
         </div>
     </div>
--->
-    <div class="portfolio wrapper">
-        <h2 id="portfolio">Portfolio</h2>
-        <hr size=10>
-            <div class="section group row">
-                <div class="col span_1_of_3">
-                    <a href="http://www.ceegary.com/neighbabel">
-                        <img src="assets/item_card/neighbabel_card.png" alt="placeholder">
-                    </a>
-                    <h5>Neighbabel</h5>
-                    <h6>Interaction Design</h6>
-                </div>
-                <div class="col span_1_of_3">
-                    <a href="http://www.ceegary.com/detroit">
-                        <img src="assets/item_card/D3_card.png" alt="placeholder">
-                    </a>
-                    <h5>Data Driven Detroit</h5>
-                    <h6>Contextual Inquiry</h6>
-                </div>
-                <div class="col span_1_of_3">
-                    <a href="http://www.ceegary.com/book">
-                        <img src="assets/item_card/popbook.png" alt="placeholder">
-                    </a>
-                    <h5>Building Girls' Protective Assets</h5>
-                    <h6>Print Design</h6>
-                </div>
-            </div>
 
-            <div class="section group row">
-                <div class="col span_1_of_3">
-                    <a href="http://www.ceegary.com/bookmarks">
-                        <img src="assets/item_card/bookmark_card.png" alt="placeholder">
-                    </a>
-                    <h5>Ending Eclampsia Bookmarks</h5>
-                    <h6>Print Design</h6>
-                </div>
-                <div class="col span_1_of_3">
-                    <a href="http://www.ceegary.com/illustration">
-                        <img src="assets/item_card/council_drawings.png" alt="placeholder">
-                    </a>
-                    <h5>Editorial Illustrations</h5>
-                    <h6>Art Direction</h6>
-                </div>
-                <div class="col span_1_of_3">
-                    <a href="http://www.ceegary.com/twitter_background">
-                        <img src="assets/item_card/twitter_card.png" alt="placeholder">
-                    </a>
-                    <h5>Twitter Backgrounds</h5>
-                    <h6>Graphic Design</h6>
-                </div>
+    <div class="portfolio container" id='portfolio'>
+        <h1>Portfolio</h1>
+        <hr size="6">
+        <div class="section group">
+            <div class="col span_4_of_12 portfolio-card">
+                <a href="neighbabel.html">
+                    <img src="assets/item-cards/neighbabel.png" alt="placeholder">
+                    <div class="slide-up">
+                        <h6>Interaction Design</h6>
+                        <h1>Neighbabel <span class="arrow">&rarr;</span></h1>
+                        <p>An app to make finding local language help easier.</p>
+                    </div>
+                </a>
             </div>
-
-            <div class="section group row">
-                <div class="col span_1_of_3">
-                    <a href="http://www.ceegary.com/fruit_poster">
-                        <img src="assets/item_card/poster_card.png" alt="placeholder">
-                    </a>
-                    <h5>Fruit Poster</h5>
-                    <h6>Print Design</h6>
-                </div>
-                <div class="col span_1_of_3">
-                    <a href="http://www.ceegary.com/alpha_poster">
-                        <img src="assets/item_card/sushi_card.png" alt="placeholder">
-                    </a>
-                    <h5>Alphabet Poster</h5>
-                    <h6>Print Design</h6>
-                </div>
+            <div class="col span_4_of_12 portfolio-card">
+                <a href="datadetroit.html">
+                    <img src="assets/item-cards/detroit2.png" alt="placeholder">
+                    <div class="slide-up">
+                        <h6>UX Consulting</h6>
+                        <h1>Data Driven Detroit <span class="arrow">&raquo;</span></h1>
+                        <p>UX consulting for an civic data startup in Detroit</p>
+                    </div>
+                </a>
             </div>
-        <h2>Ongoing Projects</h2>
-        <hr size="10">
-        <div class="section group row">
-            <div class="col span_1_of_3">
+            <div class="col span_4_of_12 portfolio-card">
+                <a href="bgpa_book.html">
+                    <img src="assets/item-cards/bgpa.png" alt="placeholder">
+                    <div class="slide-up">
+                        <h6>Graphic Design</h6>
+                        <h1>Building Girls Protective Assets <span class="arrow">&raquo;</span></h1>
+                        <p>Layout design for curriculum on program design in developing countries.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="section group">
+            <div class="col span_4_of_12 portfolio-card">
                 <a href="mcommunity.html">
-                    <img src="assets/item_card/mcomm.png" alt="placeholder">
+                    <img src="assets/item-cards/mcommunity.png" alt="placeholder">
+                    <div class="slide-up">
+                        <h6>UX Research</h6>
+                        <h1>Mcommunity <span class="arrow">&raquo;</span></h1>
+                        <p>User experience research for a people directory at U-M.</p>
+                    </div>
                 </a>
-                <h5>Mcommunity</h5>
-                <h6>UX Research</h6>
             </div>
-            <!-- <div class="col span_1_of_3">
-                <a href="#">
-                    <img src="http://placehold.it/550x350" alt="placeholder">
+            <div class="col span_4_of_12 portfolio-card">
+                <a href="council_drawings.html">
+                    <img src="assets/item-cards/illustration.png" alt="placeholder">
+                    <div class="slide-up">
+                        <h6>Art Direction</h6>
+                        <h1>Editorial Illustrations <span class="arrow">&raquo;</span></h1>
+                        <p>Illustrations developed for a Population Council publication.</p>
+                    </div>
                 </a>
-                <h5>EMX Systems</h5>
-                <h6>UI Design</h6>
-            </div> -->
+            </div>
+            <div class="col span_4_of_12 portfolio-card">
+                <a href="ee_bookmarks.html">
+                    <img src="assets/item-cards/bookmarks.png" alt="placeholder">
+                    <div class="slide-up">
+                        <h6>Graphic Design</h6>
+                        <h1>Ending Eclampsia Bookmarks<span class="arrow">&raquo;</span></h1>
+                        <p>Promotional bookmarks created Pop Council's Ending Eclampsia campaign.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="section group">
+            <div class="col span_4_of_12 portfolio-card">
+                <a href="design_excer.html">
+                    <img src="assets/item-cards/design_col.png" alt="placeholder">
+                    <div class="slide-up">
+                        <h6>Graphic Design</h6>
+                        <h1>Graphic Design Collection <span class="arrow">&raquo;</span></h1>
+                        <p>Short graphic design projects done as exercises</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col span_4_of_12 portfolio-card">
+                <a href="past_drawings.html">
+                    <img src="assets/item-cards/old_drawing.png" alt="placeholder">
+                    <div class="slide-up">
+                        <h6>Illustrations</h6>
+                        <h1>Past Illustration Work <span class="arrow">&raquo;</span></h1>
+                        <p>Illustrations for various projects made between 2014 - 2015</p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 
+    <div class="about-me container" id='about'>
+        <h1>About Me</h1>
+        <hr size="6">
+        <div class="section group">
+            <div class="col span_2_of_12">
+                <img src="assets/imgs/profile_temp2.png" alt="placeholder">
+            </div>
+            <div class="col span_10_of_12">
+                <!-- <h4>About Me</h4> -->
+                <p>Hi, my name is Gary. I am a UX and graphic designer with passion for illustration and visual art. I enjoy combing my technical and creative skills to design and build solutions to problems that clean, user-friendly, and visually exciting. Currently, I am enrolled in the University of Michigan School of Information as a master’s student specializing in Human Computer Interaction. Nevertheless, am a proud (born-and-raised) New Yorker, and I come home whenever class is not in session. </p>
+                <p>
+                    My journey into digital design started when I first began pursuing my passion in art while I was an undergraduate student at Binghamton University. With the guidance of some excellent professors, I developed the confidence and skill to participate in the local art scene. That opportunity convinced to explore careers where my creative skills were valued. After graduating (and some job searching), I landed in a graphic design position an in-house creative team at a NGO. Around that same period, I was learning to code and very much enjoyed the problem solving skills involved. I decided to commit towards
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-me-sub container">
+        <h1>Skills</h1>
+        <div class="section group">
+            <div class="col span_3_of_12">
+                <img src="assets/icons/code_2x.png" alt="placeholder">
+                <ul class="skill-list">
+                    <li class="skill-list-header">Programming Langauges</li>
+                    <li>Python</li>
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                    <li>MySQL</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+            <div class="col span_3_of_12">
+                <img src="assets/icons/software_2x.png" alt="placeholder">
+                <ul class="skill-list">
+                    <li class="skill-list-header">Software Knowledge</li>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>InDesign</li>
+                    <li>Sketch</li>
+                    <li>InVision</li>
+                    <li>Advanced Excel</li>
+                </ul>
+            </div>
+            <div class="col span_3_of_12">
+                <img src="assets/icons/design_2x.png" alt="placeholder">
+                <ul class="skill-list">
+                    <li class="skill-list-header">Design Skills</li>
+                    <li>Print Layout</li>
+                    <li>Web Design</li>
+                    <li>User Experience</li>
+                </ul>
+            </div>
+            <div class="col span_3_of_12">
+                <img src="assets/icons/methods_2x.png" alt="placeholder">
+                <ul class="skill-list">
+                    <li class="skill-list-header">UX Methods</li>
+                    <li>User Interviewing</li>
+                    <li>Wireframing</li>
+                    <li>Rapid Prototyping</li>
+                    <li>Journey Mapping</li>
+                    <li>Contextual Inquiry</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer container" id="contact">
+        <h1>Connect with me</h1>
+        <div class="footer-inner">
+            <img src="css/backgrounds/email2x.png" alt="email icon">
+            <h4>Send me an email at: <a href="mailto:gcheung(at)umich(dot)edu">gcheung at umich dot edu</a></h4>
+        </div>
+        <div class="footer-inner">
+            <img src="css/backgrounds/linkedin2x.png" alt="email icon" style="width:60px;">
+            <h4><a href="https://www.linkedin.com/in/gary-cheung-004001ba/">Connect with me in linkedin</a></h4>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="scripts/navbar.js"></script>
+    <script>
+        $(function() {
+            $('a[href^="mailto:"]').each(function() {
+            this.href = this.href.replace('(at)', '@').replace(/\(dot\)/g, '.');
+            // Remove this line if you don't want to set the email address as link text:
+            this.innerHTML = this.href.replace('mailto:', '');
+        });
+    });
+    </script>
 </body>
 </html>
