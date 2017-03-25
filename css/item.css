@@ -24,6 +24,15 @@ a, a:visited {
     text-decoration: none;
 }
 
+.gallery-note {
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    padding-top: 10px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
 .background-grey {
     background-color: #EDEDED;
 }
@@ -213,13 +222,14 @@ a, a:visited {
 }
 
 .portfolio-footer-white {
-    height: 250px;
+    height: 150px;
 }
 
 
 .portfolio-footer-white .back-link {
     color: black;
-    text-align: right;
+    text-align: center;
+    line-height: 150px;
 }
 
 
