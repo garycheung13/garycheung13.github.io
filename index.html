@@ -31,6 +31,28 @@
         </li>
     </ul>
 
+    <ul class="nav-mobile container">
+        <li>
+            <a href="http://ceegary.com">Gary Cheung</a>
+        </li>
+        <li onclick="openNav()">Menu</li>
+    </ul>
+<!--
+    <ul class="mobile-sub-nav">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/gc_resume.pdf">Resume</a></li>
+    </ul> -->
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+    <a href="#about" onclick="closeNav()">About</a>
+    <a href="#contact" onclick="closeNav()">Contact</a>
+    <a href="assets/gc_resume.pdf" onclick="closeNav()">Resume</a>
+  </div>
+</div>
     <div class="hero">
         <div class="container">
             <div class="hero-text">
@@ -224,5 +246,14 @@
         });
     });
     </script>
+    <script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
 </body>
 </html>

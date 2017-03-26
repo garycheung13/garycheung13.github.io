@@ -26,8 +26,6 @@ $(document).scroll(function(){
         }
     });
 $(document).ready(function(){
-
-
     var aChildren = $("ul.navbar li.highlightable").children(); // find the a children of the list items
        var aArray = []; // create the empty aArray
        for (var i=0; i < aChildren.length; i++) {
@@ -64,6 +62,7 @@ $(document).ready(function(){
            }
        });
    });
+
 $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
