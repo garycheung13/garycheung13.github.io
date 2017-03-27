@@ -53,7 +53,6 @@ $(document).ready(function(){
            if(windowPos + windowHeight == docHeight) {
                var lastLink = aArray[aArray.length - 1];
                if (!$(lastLink).hasClass("nav-active")) {
-                   console.log("working");
                    $("a[href='" + lastLink + "']").addClass("nav-active");
                 //    var navActiveCurrent = $(".nav-active").attr("href");
                 //    $("a[href='" + navActiveCurrent + "']").removeClass("nav-active");
@@ -63,15 +62,18 @@ $(document).ready(function(){
        });
    });
 
-$('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-            $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 500);
-         return false;
+if ($(window).width() > 901) {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 500);
+             return false;
+            }
         }
-    }
-});
+    });
+
+}
