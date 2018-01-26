@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://ceegary.com/projects/emx_systems/</loc>
+    <lastmod>2017-12-29T22:16:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ceegary.com/projects/moma_art/</loc>
+    <lastmod>2017-12-29T22:16:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ceegary.com/projects/herd_immunity/</loc>
+    <lastmod>2017-12-31T00:04:52-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ceegary.com/projects/mcommunity/</loc>
+    <lastmod>2017-12-31T00:24:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ceegary.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ceegary.com/</loc>
+    <lastmod>2017-12-29T22:16:47-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ceegary.com/projects/</loc>
+    <lastmod>2017-12-29T22:16:47-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ceegary.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
