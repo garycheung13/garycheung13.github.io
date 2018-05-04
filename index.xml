@@ -55,9 +55,9 @@ Tech Stack  Frontend  React Redux  Backend  Node.js (Express)  Database  Firebas
       <pubDate>Tue, 01 May 2018 15:30:39 -0400</pubDate>
       
       <guid>http://ceegary.com/projects/aux_marketing/</guid>
-      <description> Overview As a web developer on the University of Michigan&amp;rsquo;s auxiliary marketing team, I was responsible for maintaining several student life and university services used by the university&amp;rsquo;s students, staff, and visitors.
+      <description>Overview As a web developer on the University of Michigan&amp;rsquo;s auxiliary marketing team, I was responsible for maintaining several student life and university services used by the university&amp;rsquo;s students, staff, and visitors.
 
-Conference and Events  Catering  Recsports  </description>
+Michigan Catering I refactored the codebase for the Michigan Catering&amp;rsquo;s website. The previous site was developed using an unorthodox workaround on the Google&amp;rsquo;s blogger platform. I rewrote the frontend code to remove the dependancy on Blogger and replaced JQuery methods with native DOM API methods.</description>
     </item>
     
     <item>
