@@ -6,10 +6,29 @@
     <description>Recent content on Gary Cheung Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Dec 2017 22:16:47 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 01 May 2018 15:30:19 -0400</lastBuildDate>
     
 	<atom:link href="http://ceegary.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Straitcast</title>
+      <link>http://ceegary.com/projects/straitcast/</link>
+      <pubDate>Tue, 01 May 2018 15:30:19 -0400</pubDate>
+      
+      <guid>http://ceegary.com/projects/straitcast/</guid>
+      <description>About the project Straitcast is a web based podcast player that aims to provide a convenient, no-frills user interface for searching and finding single podcast episodes. It is powered by React in the frontend, served by a Node.js server and deployed on a heroku dyno. Firebase is used as a caching layer.
+Tech Stack  Frontend  React Redux  Backend  Node.js (Express)  Database  Firebase</description>
+    </item>
+    
+    <item>
+      <title>Herd Immunity</title>
+      <link>http://ceegary.com/projects/herd_immunity/</link>
+      <pubDate>Sun, 31 Dec 2017 00:04:52 -0500</pubDate>
+      
+      <guid>http://ceegary.com/projects/herd_immunity/</guid>
+      <description>About the project I developed this explorable explanation project over the course of a month for my data visualization class. It provides an high level explaination of the how to measure the population requirements for group (herd) immunity from infectious dieases. Users are about to observe the spread of an disease in an interactive visualization where they can customize the strength the of a disease and the vaccine against it.</description>
+    </item>
     
     <item>
       <title>EMX Systems</title>
@@ -27,17 +46,18 @@
       
       <guid>http://ceegary.com/projects/moma_art/</guid>
       <description> About the project Our team of four worked with a dataset containing the nearly complete record of the Museum of Modern Art&amp;rsquo;s collection of works to visualize geographic changes in how the collection grew during each major modern art movement. We used Python with the pandas library to clean the dataset and D3.js to implement map and bar chart visualizations.
-We did so using the following process.
- Design the visualization Clean the Data Implementation   impressionism &amp;amp; post impression movements geographic and work classification breakdown    Baubaus movement geographic and work classification breakdown   View Live Site   </description>
+ impressionism &amp;amp; post impression movements geographic and work classification breakdown    Baubaus movement geographic and work classification breakdown   Project Links View Live Site   Source Code   </description>
     </item>
     
     <item>
-      <title>Herd Immunity</title>
-      <link>http://ceegary.com/projects/herd_immunity/</link>
-      <pubDate>Sun, 31 Dec 2017 00:04:52 -0500</pubDate>
+      <title>U-M Auxiliary Marketing Work</title>
+      <link>http://ceegary.com/projects/aux_marketing/</link>
+      <pubDate>Tue, 01 May 2018 15:30:39 -0400</pubDate>
       
-      <guid>http://ceegary.com/projects/herd_immunity/</guid>
-      <description>About the project I developed this explorable explanation project over the course of a month for my data visualization class. It provides an high level explaination of the how to measure the population requirements for group (herd) immunity from infectious dieases. Users are about to observe the spread of an disease in an interactive visualization where they can customize the strength the of a disease and the vaccine against it.</description>
+      <guid>http://ceegary.com/projects/aux_marketing/</guid>
+      <description> Overview As a web developer on the University of Michigan&amp;rsquo;s auxiliary marketing team, I was responsible for maintaining several student life and university services used by the university&amp;rsquo;s students, staff, and visitors.
+
+Conference and Events  Catering  Recsports  </description>
     </item>
     
     <item>
