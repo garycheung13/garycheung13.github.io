@@ -46,7 +46,7 @@ Tech Stack  Frontend  React Redux  Backend  Node.js (Express)  Database  Firebas
       
       <guid>http://ceegary.com/projects/moma_art/</guid>
       <description> About the project Our team of four worked with a dataset containing the nearly complete record of the Museum of Modern Art&amp;rsquo;s collection of works to visualize geographic changes in how the collection grew during each major modern art movement. We used Python with the pandas library to clean the dataset and D3.js to implement map and bar chart visualizations.
- impressionism &amp;amp; post impression movements geographic and work classification breakdown    Baubaus movement geographic and work classification breakdown   Project Links View Live Site   Source Code   </description>
+ impressionism &amp;amp; post impression movements geographic and work classification breakdown    Baubaus movement geographic and work classification breakdown   Project Links View Live Site  Source Code  </description>
     </item>
     
     <item>
