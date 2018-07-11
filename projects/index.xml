@@ -17,7 +17,7 @@
       <pubDate>Tue, 01 May 2018 15:30:19 -0400</pubDate>
       
       <guid>http://ceegary.com/projects/straitcast/</guid>
-      <description>About the project Straitcast is a web based podcast player that aims to provide a convenient, no-frills user interface for searching and finding single podcast episodes. It is powered by React in the frontend, served by a Node.js server and deployed on a heroku dyno. Firebase is used as a caching layer.
+      <description>About the project Straitcast is a web based podcast player that aims to provide a convenient, no-frills user interface for searching and finding single podcast episodes. It is powered by React in the frontend,served by a Node.js server and deployed on a heroku dyno. Firebase is used as a caching layer.
 Tech Stack  Frontend  React Redux  Backend  Node.js (Express)  Database  Firebase</description>
     </item>
     
