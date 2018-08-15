@@ -1,258 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta name="generator" content="Hugo 0.27.1" />
+	<meta name="generator" content="Hugo 0.46" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="the development and ux design portfolio of Gary Cheung">
-    
-    <link rel="stylesheet" href="https://use.typekit.net/utn1tqw.css">
-    
-    <link rel="stylesheet" href="./css/main-f741ca1b.css" />
-    <title>Gary Cheung Portfolio</title>
+    <meta name="description" content="Gary Cheung UX Designer Portfolio">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700|Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main-c09b4a90.css" />
+    <title>Gary Cheung UX Portfolio</title>
 </head>
 <body>
-    <nav class="nav" id="homepage-nav">
-        <span id="mobile-nav">Menu</span>
-        <ul id="nav-options" class="nav-hidden">
-            <li><a href="./"><strong>Gary Cheung</strong></a></li>
+    <nav class="navbar row space-btwn align-center">
+        <a class="navbar-title" href="./">Gary Cheung</a>
+
+        <button class="btn-hamburger mobile-initially-hidden" role="navigation" id="menu-hamburger">
+            <div class="hamburger-container">
+                <div class="hamburger-icon"></div>
+            </div>
+        </button>
+
+        <ul id="navbar-options" class="navbar-mobile navbar-options">
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="./documents/gc_resume.pdf" rel="nofollow">Resume (PDF)</a></li>
+            <li><a href="./documents/gc-resume-web.pdf">Resume</a></li>
         </ul>
     </nav>
-    <header class="splash">
-        <div class="splash-text">
-            <h1>Hello, My name is <span>Gary</span></h1>
-            <p>
-                I am an <span>UX Designer and Front End Developer</span> that uses research driven methods to design and build websites.
-            </p>
-            <p>
-                I am currently seeking fulltime opportunities.
-            </p>
-            <a href="./documents/gc_resume.pdf" rel="nofollow" class="link-btn" target="_blank">
-                See My Resume
-            </a>
+    <header class="header">
+        <div class="wrapper">
+            <h1>Hi, My name is <span class="highlight">Gary.</span></h1>
+            <h2>I am a <span class="highlight">UX designer &amp; researcher</span> that uses a human-centered approach to design delightful experiences.</h2>
         </div>
     </header>
-    <main>
-        <section id="portfolio" class="homepage-section">
-            <h3>Portfolio</h3>
-            <hr>
-            <div class="gallery">
-            
+    <section id="portfolio" class="section wrapper">
+        <h3>Portfolio</h3>
+        <hr>
+        <div class="row">
             
                 
-                    <a href="./projects/emx_systems/">
-<div class="gallery-item" style="background-image: linear-gradient(to bottom, transparent, #6F0D27), url(images/emx-card-min.png)">
-        <div class="cover" style="background-color: #6F0D27"></div>
-    <div class="gallery-item__text">
-        <h1> EMX Systems </h1>
-        <ul>
-            
-                <li>UX Research</li>
-            
-                <li>UX Design</li>
-            
-        </ul>
-            <p>Designing a care provider centered medical record exchange system</p>
-    </div>
+                    <div class="col-lg-4 col-sm-12 card">
+    <a href="./project/emx-systems/" class="card-header">
+        <img src="images/cards/emx.png" alt="portfolio item card">
+    </a>
+    <h3>EMX Systems</h3>
+    <h4>UX Research, UX Design</h4>
+    <hr>
+    <p>Designing a medical record exchange system with providers in mind.</p>
+    <a href="./project/emx-systems/">See More &rarr;</a>
 </div>
-</a>
                 
             
                 
-                    <a href="./projects/herd_immunity/">
-<div class="gallery-item" style="background-image: linear-gradient(to bottom, transparent, #D86E8B), url(images/herd_card.png)">
-        <div class="cover" style="background-color: #D86E8B"></div>
-    <div class="gallery-item__text">
-        <h1> Herd Immunity </h1>
-        <ul>
-            
-                <li>Frontend Dev</li>
-            
-                <li>Data Visualization</li>
-            
-        </ul>
-            <p>Visualizing the effect of herd immunity.</p>
-    </div>
+                    <div class="col-lg-4 col-sm-12 card">
+    <a href="./project/moment/" class="card-header">
+        <img src="images/cards/moment.png" alt="portfolio item card">
+    </a>
+    <h3>Moment</h3>
+    <h4>UX Research, UX Design</h4>
+    <hr>
+    <p>Designing an wearable and mobile app to manage academic stress.</p>
+    <a href="./project/moment/">See More &rarr;</a>
 </div>
-</a>
                 
             
                 
-                    <a href="./projects/moma_art/">
-<div class="gallery-item" style="background-image: linear-gradient(to bottom, transparent, #4BA7D8), url(images/moma_card.png)">
-        <div class="cover" style="background-color: #4BA7D8"></div>
-    <div class="gallery-item__text">
-        <h1> MoMA and Art Movements </h1>
-        <ul>
-            
-                <li>Frontend Dev</li>
-            
-                <li>Data Visualization</li>
-            
-        </ul>
-            <p>Visualizing the changes in the MoMA&#39;s collection through modern and contemporary art movements</p>
-    </div>
+                    <div class="col-lg-4 col-sm-12 card">
+    <a href="./project/data-driven-detroit/" class="card-header">
+        <img src="images/cards/d3.png" alt="portfolio item card">
+    </a>
+    <h3>Data Driven Detroit</h3>
+    <h4>UX Consulting, UX Research</h4>
+    <hr>
+    <p>Applying user-centered design methods to improve data management for a civic tech startup</p>
+    <a href="./project/data-driven-detroit/">See More &rarr;</a>
 </div>
-</a>
                 
             
                 
-                    <a href="./projects/straitcast/">
-<div class="gallery-item" style="background-image: linear-gradient(to bottom, transparent, #e85184), url(/images/straitcast_card.png)">
-        <div class="cover" style="background-color: #e85184"></div>
-    <div class="gallery-item__text">
-        <h1> Straitcast </h1>
-        <ul>
-            
-                <li>Frontend Dev</li>
-            
-                <li>Backend Dev</li>
-            
-        </ul>
-            <p>A no frills web-based podcast player built on react and powered by firebase</p>
-    </div>
+                    <div class="col-lg-4 col-sm-12 card">
+    <a href="./project/mcommunity/" class="card-header">
+        <img src="images/cards/mcomm.png" alt="portfolio item card">
+    </a>
+    <h3>MCommunity</h3>
+    <h4>UX Research</h4>
+    <hr>
+    <p>Conducting UX research to improve University of Michigan&#39;s identity management system.</p>
+    <a href="./project/mcommunity/">See More &rarr;</a>
 </div>
-</a>
                 
             
                 
-                    <a href="./projects/aux_marketing/">
-<div class="gallery-item" style="background-image: linear-gradient(to bottom, transparent, #3a427a), url(/images/aux_card.png)">
-        <div class="cover" style="background-color: #3a427a"></div>
-    <div class="gallery-item__text">
-        <h1> University Catering </h1>
-        <ul>
-            
-                <li>Frontend Dev</li>
-            
-        </ul>
-            <p>Rebuilding the University of Michigan Catering website</p>
-    </div>
+                    <div class="col-lg-4 col-sm-12 card">
+    <a href="./project/data-visualizations/" class="card-header">
+        <img src="images/cards/dataviz.png" alt="portfolio item card">
+    </a>
+    <h3>Explorable Explanations</h3>
+    <h4>Visual Design, Data Visualization</h4>
+    <hr>
+    <p>Data visualizations exploring herd immunity and modern art movements.</p>
+    <a href="./project/data-visualizations/">See More &rarr;</a>
 </div>
-</a>
                 
             
                 
-                    <a href="./projects/mcommunity/">
-<div class="gallery-item" style="background-image: linear-gradient(to bottom, transparent, #39C0B8), url(images/mcomm-card.png)">
-        <div class="cover" style="background-color: #39C0B8"></div>
-    <div class="gallery-item__text">
-        <h1> MCommunity </h1>
-        <ul>
-            
-                <li>UX Research</li>
-            
-        </ul>
-            <p>Researching improvements for U-M&#39;s people directory</p>
-    </div>
+                    <div class="col-lg-4 col-sm-12 card">
+    <a href="./project/arkadium-intern/" class="card-header">
+        <img src="images/cards/ark.png" alt="portfolio item card">
+    </a>
+    <h3>Arkadium Internship</h3>
+    <h4>UI Design, Data Visualization</h4>
+    <hr>
+    <p>Data visualization design for Arkadium&#39;s Inhabit.</p>
+    <a href="./project/arkadium-intern/">See More &rarr;</a>
 </div>
-</a>
                 
             
-            </div>
-        </section>
-        <section id="about" class="homepage-section">
+        </div>
+    </section>
+    <section id="about" class="section about">
+        <div class="wrapper">
             <h3>About Me</h3>
             <hr>
-            <img src="./images/profile_temp2-min.png" alt="profile picture">
-            <p>
-                Hi, my name is Gary. I am a UX Designer and Web Developer that uses a human-centered approach to create delightful experiences.
-            </p>
-            <p>
-                I was initially a latecomer to the world of tech, having learnt to code right after finishing my undergraduate degree. During my time away from school, my background in psychology led to become curious about the human facing side of software development. This lead me to return to school where I learned to bring human-centered principles into design and development.
-            </p>
-            <p>
-                Over the course of my two years in the program I learned:
-                <ul>
-                    <li>practical user-centered research methods such as conducting interviews, usability tests, contextual inquiry</li>
-                    <li>designed and developed data visualization programs that tell meaningful narratives</li>
-                    <li>ideated, designed, and prototyped interfaces for new apps</li>
-                    <li>collected and manipulated data from the web to further project goals</li>
-                </ul>
-            </p>
-            <p>
-                I am seeking fulltime opportunities in UX design. If you are looking for a designer that believes in the importance of UX, feel free to contact me at garycheu23@<span style="display: none;">null</span>gmail.com!
-            </p>
-        </section>
-        <section id="skills" class="homepage-section">
-            <h3>Skillset</h3>
-            <hr>
-            <span class="homepage-section__subheading">I bring both UX design and development skills</span>
-            <div class="homepage-content">
-            <div class="homepage-content__section-50 list">
-                    <h4>User Experience</h4>
-                    <h5>UX Research</h5>
-                    <ul>
-                        <li>Contextual Inquiry, User Interviewing, Survey Design, Affinity Diagrams, Competitive Analysis, Usability Testing</li>
-                    </ul>
-
-                    <h5>UX Design</h5>
-                    <ul>
-                        <li>Wireframing, Prototyping, Storyboarding, User Flow, Responsible Web Design, Data Visualization, Personas, User Stories</li>
-                    </ul>
-                    <h5>Software Used</h5>
-                    <ul>
-                        <li>Sketch, Illustrator, Photoshop, Invision, Principle, SPSS</li>
-                    </ul>
-                </div>
-                <div class="homepage-content__section-50 list">
-                    <h4>Web Development</h4>
-                    <h5>Languages</h5>
-                    <ul>
-                        <li>Python, Javascript(ES6), HTML5/CSS3, SCSS, PHP, MySQL</li>
-                    </ul>
-                    <h5>Libraries/Frameworks</h5>
-                    <ul>
-                        <li>React.js, Redux, D3.js, jQuery, Express, Wordpress</li>
-                    </ul>
-                    <h5>Tools</h5>
-                    <ul>
-                        <li>Gulp, Webpack, Git, Vagrant</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <footer>
-    <h3>Let's Connect</h3>
-    <div class="homepage-content">
+            <p> I am a New York based UX designer with two years of experience designing for web and mobile. I hold a master’s in human-computer interaction from the University of Michigan and a bachelor’s in psychology from Binghamton University. </p>
+            <p> I take a human-centered approach to design, keeping both aesthetics and usability in mind to deliver meaningful, delightful experiences. I’ve worked on teams as both a designer and a programmer; this has given me a broad understanding and knowledge needed to find solutions that balance bold design with development costs. </p>
+            <p> When I am not working, my hobbies include sketching and drawing (mainly animals).</p>
+            <p> I am currently looking for a full time position in UX design. If you are you looking for a UX designer that champions the user, or just want to grab a coffee, send me an email at garycheu23@<span style="display: none;">null</span>gmail.com!</p>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="wrapper">
+        <h3>Connect with me!</h3>
+        <hr>
         <ul>
-            <li>
-                <a class="icon icons__github" href="https://github.com/garycheung13/">
-                    Github
-                </a>
-            </li>
-            <li>
-                <a class="icon icons__linkedin" href="https://www.linkedin.com/in/gary-cheung-004001ba/">
-                    Linkedin
-                </a>
-            </li>
-            <li>
-                <a id="footer-email" class="icon icons__email" href="">
-                    Email
-                </a>
-            </li>
+            <li><a href="https://www.github.com/garycheung13">Github</a></li>
+            <li><a id="footer-email" href="">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/gary-cheung-004001ba/">Linkedin</a></li>
         </ul>
     </div>
 </footer>
-    </main>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"></script>
     
-    <script src="./js/navbar-3a2e1ed4.js"></script>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-97384746-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+    <script src="./js/footer-d2950f95.js" type="text/javascript"></script>
 </body>
-
 </html>

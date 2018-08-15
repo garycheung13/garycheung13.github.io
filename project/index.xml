@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gary Cheung UX Portfolio</title>
-    <link>http://ceegary.com/</link>
-    <description>Recent content on Gary Cheung UX Portfolio</description>
+    <title>Projects on Gary Cheung UX Portfolio</title>
+    <link>http://ceegary.com/project/</link>
+    <description>Recent content in Projects on Gary Cheung UX Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Aug 2018 17:07:22 -0400</lastBuildDate>
     
-	<atom:link href="http://ceegary.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ceegary.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
