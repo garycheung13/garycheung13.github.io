@@ -59,13 +59,13 @@ The Problem D3’s current methods for handling data internally do not scale wit
     </item>
     
     <item>
-      <title>Arkadium Internship</title>
-      <link>http://ceegary.com/project/arkadium-intern/</link>
-      <pubDate>Thu, 09 Aug 2018 17:37:50 -0400</pubDate>
+      <title>Michigan Catering</title>
+      <link>http://ceegary.com/project/aux-catering/</link>
+      <pubDate>Sun, 19 Aug 2018 00:12:59 -0400</pubDate>
       
-      <guid>http://ceegary.com/project/arkadium-intern/</guid>
-      <description>Overview Inhabit is an ad-tech product developed by Arkadium which allows news publishers to programmatically insert interactive infographics based on an article&amp;rsquo;s content. During my summer internship, I worked on designing new data visualizations and infographics possibilities for Inhabit to select from.
-I was the primary designer working on a new visualization about deadly weather. Based on research provided by the company’s editorial team, I created multiple iterations of the design before getting a final design approved by the team’s art director for development.</description>
+      <guid>http://ceegary.com/project/aux-catering/</guid>
+      <description>Overview As a web developer on the University of Michigan&amp;rsquo;s auxiliary marketing team, I was responsible for maintaining and building websites for the a number of student life and service departments at the school. In February of 2018, University Catering asked our team to redesign their main website.
+Role I was responsible for implementing the design based on mockups and refactoring the frontend codebase. I integrated an API from University Dining Services to dynamically generate the catering menu.</description>
     </item>
     
   </channel>
