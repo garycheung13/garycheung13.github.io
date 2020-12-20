@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/wwn7wzs.css" />
+    <link rel="stylesheet" href="../src/css/main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <title>Graphic Design Work</title>
+  </head>
+  <body>
+    <header class="case-header">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light main-nav">
+        <div class="container">
+            <a class="navbar-brand" href="/">Gary Cheung</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav ml-auto main-nav__items">
+                <li class="nav-item">
+                  <a class="nav-link" href="../">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../docs/resume.pdf">Resume</a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container gd-container">
+        <div class="gd-text py-4">
+          <h1>Graphic Design Works</h1>
+          <p>Click on any project for more details</p>
+        </div>
+        <div class="card-columns">
+          <div class="card gd-card" data-toggle="modal" data-target="#gd-modal" data-project="bgpa">
+            <img src="../images/graphic_design/bgpa_thumb.png" alt="">
+          </div>
+          <div class="card gd-card" data-toggle="modal" data-target="#gd-modal" data-project="ark">
+            <img src="../images/graphic_design/ark_thumb.png" alt="">
+          </div>
+          <div class="card gd-card" data-toggle="modal" data-target="#gd-modal" data-project="tea">
+            <img src="../images/graphic_design/tea_site_thumb.png" alt="">
+          </div>
+          <div class="card gd-card" data-toggle="modal" data-target="#gd-modal" data-project="bookmarks">
+            <img src="../images/graphic_design/bookmarks_thumb.png" alt="">
+          </div>
+          <div class="card gd-card" data-toggle="modal" data-target="#gd-modal" data-project="pineapple">
+            <img src="../images/graphic_design/pineapple_thumb.png" alt="">
+          </div>
+          <div class="card gd-card" data-toggle="modal" data-target="#gd-modal" data-project="internship">
+            <img src="../images/graphic_design/internship_thumb.png" alt="">
+          </div>
+          <div class="card gd-card" data-toggle="modal" data-target="#gd-modal" data-project="coffee">
+            <img src="../images/graphic_design/coffee_thumb.png" alt="">
+          </div>
+          <div class="card gd-card" data-toggle="modal" data-target="#gd-modal" data-project="sushi">
+            <img src="../images/graphic_design/sushi_thumb.png" alt="">
+          </div>
+          <div class="card gd-card" data-toggle="modal" data-target="#gd-modal" data-project="lsa">
+            <img src="../images/graphic_design/lsa_thumb.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="gd-modal" tabindex="-1" role="dialog" aria-labelledby="gd-modal" aria-hidden="true">
+        <div class="modal-dialog mw-100 gd-modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body gd-modal__body">
+              <div class="gd-text">
+                <h2 class="gd-item__heading"></h2>
+                <div class="gd-item__desc"></div>
+              </div>
+              <div class="gd-item__images"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container frontpage-footer">
+      <span>Designed and built by Gary Cheung · garycheu23[at]gmail[dot]com</span>
+  </footer>
+
+  <script src="../js/galleryModal.js"></script>
+  </body>
+</html>

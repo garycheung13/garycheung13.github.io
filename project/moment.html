@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/wwn7wzs.css" />
+    <link rel="stylesheet" href="../src/css/main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <title>Moment UX Case Study</title>
+</head>
+<body data-target="#toc" data-spy="scroll" data-offset="50">
+    <header class="case-header my-5">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light main-nav">
+            <div class="container">
+                <a class="navbar-brand" href="/">Gary Cheung</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto main-nav__items">
+                        <li class="nav-item">
+                          <a class="nav-link" href="../">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../about.html">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../docs/resume.pdf">Resume</a>
+                          </li>
+                      </ul>
+                </div>
+            </div>
+          </nav>
+        <div class="row no-gutters case-header__container">
+          <div class="col-lg-6 pl-5 case-header__text d-flex flex-column justify-content-center">
+            <hr>
+            <h1>Moment</h1>
+            <h2>UX Design, UX Research</h2>
+            <p>
+                Designing an app for improving stress management habits
+            </p>
+          </div>
+          <div class="col-lg-6 align-self-center">
+            <img src="../images/moment-card-large.png" alt="" />
+          </div>
+        </div>
+      </header>
+      <main class="case-body">
+        <section id="moment-overview" class="case-start">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h2 class="case-header">Overview</h2>
+                        <p>
+                            Moment is a UX research and design project that explores the use of data
+                            collection and analysis to help students manage their school-related
+                            stress. I worked together with three other designers to create an app
+                            for wearables that provides in-the-moment stress support. Our design
+                            focused on creating a good data collection plan to encourage students
+                            to improve their stress habits.
+                        </p>
+                        <p>This app was the result of a semester-long UX research and design project for my graduate-level class on personal informatics design.</p>
+                        <div class="project-info row">
+                            <div class="project-info__item col-sm">
+                              <span class="project-info__label">Duration</span>
+                              <span class="project-info__desc">4 Months</span>
+                            </div>
+                            <div class="project-info__item col-sm">
+                              <span class="project-info__label">Work Setting</span>
+                              <span class="project-info__desc">Team of 4</span>
+                            </div>
+                            <div class="project-info__item col-sm">
+                              <span class="project-info__label">Platform</span>
+                              <span class="project-info__desc">Wearable App</span><br>
+                              <span class="project-info__desc">Mobile App</span>
+                            </div>
+                            <div class="project-info__item col-sm">
+                              <span class="project-info__label">Role</span>
+                              <span class="project-info__desc">UX Designer <br />UX Researcher</span>
+                            </div>
+                        </div>
+                        <img src="../images/moment/watch-mockup.jpg" alt="">
+                        <img src="../images/moment/phone-mockup.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="moment-background" class="section-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h2 class="case-header">Problem Statement</h2>
+                        <p>
+                            Most students will experience some degree of academic stress, the pressure to
+                            perform well in school, during their time in college. In 2017, 28% of students
+                            who sought counseling on college campuses were concerned about their performance
+                            in school.* While every student has their own stress coping strategy, not all
+                            approaches are equal. Some coping habits, such as overeating, have long-term
+                            negative consequences on a student’s health.
+                        </p>
+                        <p>
+                            As students who dealt with academic stress before, the topic was of great
+                            interest to our team. We were interested in applying our design skills to
+                            create a data-oriented solution to help students better manage their stress.
+                        </p>
+                        <p>
+                            We wanted to know:
+                            <span class="em-quote">
+                                How could we use personal data collection and analysis to
+                                design a tech-based intervention for academic stress?
+                            </span>
+                        </p>
+                        <cite>* By the numbers: Stress on Campus: https://www.apa.org/monitor/2017/09/numbers</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="moment-research">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <span class="kicker">User Research</span>
+                        <h2 class="case-header">Understanding Students' Stress</h2>
+                        <p>
+                            To gather the right information for making a stress management app,
+                            we focused our research on answering two key questions:
+                        </p>
+                        <ul class="case-shortlist">
+                            <li>How do students manage their academic stress and how do they feel about it?</li>
+                            <li>What help strategies do existing mental health apps offer to their users?</li>
+                        </ul>
+                        <h3 class="case-subhead" id="competitive-alyz">Competitive Analysis: Reviewing other people’s Work</h3>
+                        <p>
+                            To brainstorm ideas for our app, our team reviewed the design of
+                            several emotional support products. We took note on what form the
+                            product took, what data was collected, and the type of intervention
+                            offered.
+                        </p>
+                        <div class="table-responsive-md">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Format</th>
+                                        <th>Measurements Taken</th>
+                                        <th>Has Automatic Collection?</th>
+                                        <th>Self-report?</th>
+                                        <th>Intervention</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Ginger.io</th>
+                                        <td>Mobile App</td>
+                                        <td>
+                                            <ul>
+                                                <li>Phone use pattern monitoring (calls, texts)</li>
+                                                <li>Activity patterns on the app</li>
+                                            </ul>
+                                        </td>
+                                        <td>Yes</td>
+                                        <td>No</td>
+                                        <td><ul>
+                                            <li>Live consultation with a mental health professional</li>
+                                            <li>Referral to doctor if serious</li>
+                                        </ul></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Joyable</th>
+                                        <td>Mobile App</td>
+                                        <td>
+                                            <ul>
+                                                <li>Survey questions for personalization</li>
+                                            </ul>
+                                        </td>
+                                        <td>No</td>
+                                        <td>Yes</td>
+                                        <td>
+                                            <ul>
+                                                <li>Matching with a licensed therapist</li>
+                                                <li>Mindfulness activity suggestions</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Biostrap</th>
+                                        <td>Wearable</td>
+                                        <td>
+                                            <ul>
+                                                <li>Heartbeat/Heart Rate Variability</li>
+                                                <li>Blood oxygen levels</li>
+                                                <li>Sleep patterns</li>
+                                                <li>Respiratory rates</li>
+                                                <li>Activities Tracker</li>
+                                            </ul>
+                                        </td>
+                                        <td>Yes</td>
+                                        <td>No</td>
+                                        <td>
+                                            <ul>
+                                                <li>Gives detailed reports based on the data, but no real suggestions: that’s up to the user</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">PillowTalk</th>
+                                        <td>Wearable</td>
+                                        <td>
+                                            <ul>
+                                                <li>Heart Rate</li>
+                                                <li>User Voice</li>
+                                            </ul>
+                                        </td>
+                                        <td>Yes</td>
+                                        <td>Yes</td>
+                                        <td>
+                                            <ul>
+                                                <li>Transmit to another person</li>
+                                                <li>Speaking to someone close</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>
+                            From this analysis, we saw the importance of monitoring the user’s
+                            condition, done through self-reporting or behavior monitoring by the
+                            app. Several apps encourage users to share their feelings with another
+                            person. However, Biostrap only offered tools for self-assessment.
+                        </p>
+                        <h3 class="case-subhead" id="interviews">User Interviews: Learning about students’ habits</h3>
+                        <p>
+                            We interviewed four students to learn about their experiences with
+                            academic stress and stress coping habits. While our team had personal
+                            experience with academic stress, we didn’t want to assume that other
+                            students shared our experiences.
+                        </p>
+                        <ul class="row case-list">
+                            <li class="col-md-6">
+                                <hr>
+                                <h4>Find the midpoint</h4>
+                                Feeling some stress improved school performance, but overwhelming
+                                stress caused fatigue and inability to focus.
+                            </li>
+                            <li class="col-md-6">
+                                <hr>
+                                <h4>Force of Habit</h4>
+                                Stress habits were habitual, even when the interview knew the habit were bad.
+                            </li>
+                            <li class="col-md-6">
+                                <hr>
+                                <h4>Counterproductive methods</h4>
+                                Some de-stressing habits were counterproductive for schoolwork,
+                                such as staying up late and becoming fatigued.
+                            </li>
+                            <li class="col-md-6">
+                                <hr>
+                                <h4>Positive lifestyle changes help the most</h4>
+                                The biggest stress management improvements came from lifestyle
+                                changes. Some examples cited include getting regular exercise
+                                and improving their diet.
+                            </li>
+                        </ul>
+                        <h3 class="case-subhead" id="persona">Persona</h3>
+                        <p>
+                            Based on our findings, I created a persona representing the type of student
+                            our team should target with Moment.
+                        </p>
+                        <figure class="figure row">
+                            <div class="col-md-9">
+                                <img src="../images/moment/persona.png" alt="">
+                            </div>
+                            <figcaption class="figure-caption col-md-3">
+                                Figure: Jackie is a masters student in a challenging masters
+                                program that has to juggle work and school responsibilities.
+                                She is familiar with the typical ways of handling stress, but
+                                wants to better understand what strategies actually work for her
+                                so that she can better manage her day.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="moment-solution" class="section-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <span class="kicker">Design Overview</span>
+                        <h2 class="case-header">Introducing Moment</h2>
+                        <p>
+                            Moment is an app for wearables that helps students manage stress,
+                            improve habits, and track their progress. The app detects when the
+                            user is stressed with a heart rate sensor and provides guided coping
+                            activities. With the app's data tracking, users can view graphs to get
+                            feedback on their stress management process.
+                        </p>
+                        <h3 class="case-subhead">In-the-Moment Support</h3>
+                        <p>
+                            When Moment detects a user’s increased heart rate, it suggests a guided relaxation
+                            activity to help calm the user.
+                        </p>
+                        <img src="../images/moment/trigger-workflow.png" alt="">
+                        <h3 class="case-subhead">Guided Help</h3>
+                        <p>
+                            Moment guides the user through activities it suggests, providing
+                            users directions to try something new.
+                        </p>
+                        <img src="../images/moment/guided-workflow.png" alt="">
+                        <h3 class="case-subhead">Flexibility and Control</h3>
+                        <p>
+                            Users are in control with Moment. App notifications can be delayed or
+                            dismissed to reduce interruptions. This also lets Moment correct
+                            false-positives.
+                        </p>
+                        <img src="../images/moment/dismiss-alert.png" alt="">
+                        <h3 class="case-subhead">Tracking Progress with Data Collection</h3>
+                        <p>
+                            Visible feedback is key to changing behavior. Through the wearable and
+                            the mobile app, users can view their stress and heart rate data to see the
+                            effectiveness of their de-stressing methods.
+                        </p>
+                        <img src="../images/moment/data-report.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="moment-process">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <span class="kicker">Design Process</span>
+                        <h2 class="case-header">Approaching the Problem</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="../images/moment/moment-uses.JPG" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="../images/moment/moment-concept.jpeg" alt="">
+                            </div>
+                        </div>
+                        <p class="pt-4">
+                            During our team’s ideation meeting, we brainstormed design
+                            ideas based on our research. Each idea was evaluated based
+                            on its strengths, weaknesses, and creativity.
+                        </p>
+                        <p>
+                            After considering our research, we decided to create a
+                            wearable app that measures stress levels and gives
+                            in-the-moment support to lower stress.
+                        </p>
+                        <ul class="case-shortlist">
+                            <li>Since experiencing some stress improved performance, it would be better to reduce stress instead of eliminating it.</li>
+                            <li>Reducing negative symptoms helps students focus on completing the work causing the stress.</li>
+                            <li>Teaching support methods also helps students self-improve.</li>
+                        </ul>
+                        <div class="row pb-5">
+                            <div class="col-md-6">
+                                <img src="../images/moment/moment-4-factors.jpeg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="../images/moment/moment-sketches.png" alt="">
+                            </div>
+                        </div>
+                        <p>The app was designed with 2 goals in mind:</p>
+                        <ol class="case-shortlist">
+                            <li>Provide in-the-moment support to prevent stress from overwhelming students.</li>
+                            <li>Encourage students to improve their stress management habits.</li>
+                        </ol>
+                        <p>
+                            Two key questions I considered during the design process were:
+                        </p>
+                        <ul class="case-shortlist">
+                            <li>What does a data collection strategy that detects stress and measures user progress include?</li>
+                            <li>How could our product improve students’ stress management habits?</li>
+                        </ul>
+                        <h3 class="case-subhead" id="data-collect">Crafting a data collection strategy</h3>
+                        <p>We created Moment’s data collection strategy based on three questions:</p>
+                        <ul class="case-shortlist">
+                            <li>How could we detect when the user is potentially stressed?</li>
+                            <li>What do we need to maintain data validity?</li>
+                            <li>How could the user tell if Moment is helping with their stress?</li>
+                        </ul>
+                        <div class="table-responsive-md">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Measurement</th>
+                                        <th>Type</th>
+                                        <th>Data Collected</th>
+                                        <th>Reason for Collecting</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Heart Rate Sensor</td>
+                                        <td>Automatic</td>
+                                        <td>Heart rate in BPM</td>
+                                        <td>Look for spikes to detect potential stress episode</td>
+                                    </tr>
+                                    <tr>
+                                        <td>User feeling polling</td>
+                                        <td>User Input</td>
+                                        <td>Yes or No to confirm if the user feels stressed</td>
+                                        <td>Verify stress detection by heart rate sensor</td>
+                                    </tr>
+                                    <tr>
+                                        <td>User Stress Rating</td>
+                                        <td>User Input</td>
+                                        <td>Rating from 1 to 10 for a subjective rating of stress level</td>
+                                        <td>Feedback to determine effectiveness of coping exercise suggested</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h4 class="case-subsection__header">How could we detect when the user is potentially stressed?</h4>
+                        <div class="row">
+                            <p class="col-md-9">
+                                Our team promptly agreed to measure heart rate with a sensor
+                                in Moment based on seeing it used in the products we reviewed.
+                                It required minimal input from the user and collected unbiased
+                                data. However, heart rate was not accurate enough alone since heart
+                                rate increases could stem from non-stress events such as exercise.
+                            </p>
+                            <div class="col-md-3">
+                                <img src="../images/moment/hr-watchface.png" alt="">
+                            </div>
+                        </div>
+
+                        <h4 class="case-subsection__header">What do we need to maintain data validity?</h4>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p>
+                                    To deal with data invalidity, Moment asks the user, "How are you
+                                    feeling?" when it detects an increased heart rate. If the user
+                                    tells Moment that they feel fine, the app marks the spike as a
+                                    false positive and stops offering activity suggestions.
+                                </p>
+                                <p>
+                                    Adding the stress question helps with stress detection, but we
+                                    still needed a way to track user progress.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="../images/moment/hr-valid-watchface.png" alt="">
+                            </div>
+                        </div>
+
+                        <h4 class="case-subsection__header">How could we track user progress?</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="../images/moment/phone-viz.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <p>Moment needed a way to track stress management progress for two reasons:</p>
+                                <ul class="case-shortlist">
+                                    <li>Help users determine the suggested activities are working for them.</li>
+                                    <li>Encourage users to keep using the app.</li>
+                                </ul>
+                                <p>
+                                    To help with progress tracking, we asked users to rate their
+                                    stress level (1-10 scale) before and after doing an app suggested
+                                    activity. Moment graphs the collected stress ratings and heart
+                                    rate readings to show short and long term trends. By checking the
+                                    trend direction of their average stress ratings, users can
+                                    determine if their de-stressing methods are working.
+                                </p>
+                            </div>
+                        </div>
+
+                        <h3 class="case-subhead" id="behavior-change">A design strategy for behavior Change</h3>
+                        <p>
+                            We designed Moment's workflow to encourage users to improve their de-stressing
+                            habits. To accomplish this, our design strategy for the workflow used principles
+                            from The Rider and the Elephant, a framework for behavior change from Chip & Dan
+                            Heath's book Switch.
+                        </p>
+                        <p>
+                            The Rider-Elephant framework uses a metaphor about a rider(rational
+                            brain) trying to direct an elephant(emotional brain) down a path.
+                            When the two sides disagree, the elephant will always overpower
+                            the rider. They can only reach their goal when they work together.
+                            In other words, a good behavior change plan needs to consider both
+                            the rational and emotional parts of the brain.
+                        </p>
+                        <p>Heath & Heath recommend a three-part strategy for cooperation:</p>
+                        <ul class="case-shortlist">
+                            <li>Direct the rider: Establish steps to reach the desired change.</li>
+                            <li>Motivate the elephant: Make the change emotionally easier.</li>
+                            <li>Shape the path: Reshape the situation to make change easier.</li>
+                        </ul>
+                        <div class="table-responsive-md">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Key</th>
+                                        <th>How to address</th>
+                                        <th>Moment's approach</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Directing the rider (Rational Brain)</td>
+                                        <td>Establish a clear end goal and direction</td>
+                                        <td>Suggest good stress relief activities to users. Provide data visualizations so users can track their progress. </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Motivate the Elephant (Emotional Brain)</td>
+                                        <td>Appeal to emotion</td>
+                                        <td>Present activities in small steps to make them more approachable and engaging.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Shape the path (Environment/Situation)</td>
+                                        <td>alter the situation or environment to make change easier</td>
+                                        <td>Remind users to do Moment’s activities when the app detects stress. The notification will act as a habit trigger for new stress habits. </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h4 class="case-subsection__header">Direct the Rider: Make the Steps Clear</h4>
+                        <p>Directing the rider means making the steps to the behavior change goal clear. We do this in Moment in two ways:</p>
+                        <ul class="case-shortlist">
+                            <li>Recommend users specific activities. Each activity includes a description of how it helps with stress. Giving clear recommendations makes it easier for a user to move in the right direction.</li>
+                            <li>Provide visible feedback through time graphs of the user's heart rate and stress rating data. By checking the trend direction, users can check if they are making progress. </li>
+                        </ul>
+                        <p>These two features work in tandem to point the user in a specific direction and provide feedback on their progress.</p>
+                        <img src="../images/moment/direct-the-rider.png" alt="">
+
+                        <h4 class="case-subsection__header">Motivating the elephant: Appeal to emotion</h4>
+                        <p>
+                            Any plan for changing behavior needs a way to engage users emotionally. One way to do that is by
+                            breaking down the change into smaller steps. Our app does this by providing step-by-step instructions
+                            for each activity the app suggests. For example, when the app suggests meditation to the user,
+                            it also teaches the user how to breathe for meditation. By doing this, we can ease the user into a
+                            new de-stressing activity, making it less intimidating.
+                        </p>
+                        <img src="../images/moment/motivate-elephant.png" alt="">
+
+                        <h4 class="case-subsection__header">Shaping the path: alter the situation to make change easier</h4>
+                        <p>
+                            Shaping the path means making change easier by tweaking the user's environment. To do this in
+                            Moment, we consider how students tended to repeat the same stress habits. Our solution was
+                            to have Moment send an alert inviting the user to try one of the app's exercises when it
+                            detects stress. This alert acts as a trigger, helping the user develop new stress habits
+                            that include Moment's activities.
+                        </p>
+                        <img src="../images/moment/shape-path.png" alt="">
+
+                        <h3 class="case-subhead" id="physical-proto">Physical Prototyping</h3>
+                        <p>
+                            For the wearable portion of Moment, we experimented with physical prototyping for the
+                            stress input UX using an Arduino. The prototype consisted of a LED ring and a knob
+                            controlling the number of lights lit. We used Ubidots, a platform for IoT devices,
+                            to display output.
+                        </p>
+                        <img src="../images/moment/moment-aud.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="moment-conclusion" class="section-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h2 class="case-header">Conclusions</h2>
+                        <h3 class="case-subhead">Future Steps</h3>
+                        <p>With more time to work on this project, I would:</p>
+                        <ul>
+                            <li>
+                                <h4 class="bullet-head">Expand the app to include other types of stress </h4>
+                                <p>We limited the scope of the project
+                                    to academic stress for time constraints. With more time, I would do more research to
+                                    include other types of stress in Moment’s design.</p>
+                            </li>
+                            <li>
+                                <h4 class="bullet-head">Consult with stress management experts:</h4>
+                                <p>With stress management advice from experts,
+                                    Moment could support more activity types.</p>
+                            </li>
+                            <li>
+                                <h4 class="bullet-head">Usability test the wearable: </h4>
+                                <p>Before creating more design iterations, I would formally user
+                                    test for the entire UI and workflow to catch any hidden usability issues.</p>
+                            </li>
+                        </ul>
+
+                        <h3 class="case-subhead">Reflection</h3>
+                        <ul>
+                            <li>
+                                <h4 class="bullet-head">Plan for user interviews carefully</h4>
+                                <p>
+                                    Keeping our user interviewees comfortable was vital to successful user interviews
+                                    in this project. We needed to ask about their personal experiences with stress
+                                    in college. To prepare, I carefully worded and rehearsed each stress question in the
+                                    interview script. As a result, I was about to get my interviewee to share details about
+                                    his stress that contributed to our team's findings.
+                                </p>
+                            </li>
+                            <li>
+                                <h4 class="bullet-head">Breakdown large goals to make them more manageable</h4>
+                                <p>
+                                    Breaking down design problems into smaller, actionable chunks can make them easier to manage. In
+                                    this project, we needed to design a way to change users' stress habits, which I found hard. To make
+                                    the problem more approachable, I break down the problem into distinct parts using the Rider and the
+                                    Elephant framework. Doing this helped me organize my design ideas and make better decisions.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-lg-10 d-flex justify-content-center">
+                    <a href="/#portfolio" class="btn btn-primary">Back to Portfolio</a>
+                </div>
+            </div>
+            <div class="row project-links">
+                <div class="col-lg-10">
+                <hr>
+                  <h2>Other Projects</h2>
+                  <div class="row justify-content-between">
+                      <div class="col-md-4">
+                        <a href="../project/emx-systems.html" class="img-link">
+                            <img src="../images/emx-card-small.png" alt="">
+                        </a>
+                        <h3 class="case-end__header">EMX Systems</h3>
+                        <h4 class="case-end__subtitle">UX Design | UX Research</h4>
+                      </div>
+                      <div class="col-md-4">
+                        <a href="../project/mcommunity.html" class="img-link">
+                            <img src="../images/mcomm-card-small.png" alt="">
+                        </a>
+                        <h3 class="case-end__header">MCommunity</h3>
+                        <h4 class="case-end__subtitle">UX Research</h4>
+                      </div>
+                      <div class="col-md-4">
+                        <a href="../project/graphic-design.html" class="img-link">
+                            <img src="../images/gd-card-small.png" alt="">
+                        </a>
+                        <h3 class="case-end__header">Graphic Design</h3>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </main>
+      <div class="container hidden d-none d-xl-block" id="case-sidebar">
+        <div class="row">
+          <div class="col-md-2 ml-auto">
+            <nav class="navbar navbar-light align-items-start toc" id="toc">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#moment-overview">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#moment-background">Problem Statement</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#moment-research">User Research</a>
+                    <nav class="nav toc-subitems">
+                        <a href="#competitive-alyz" class="nav-link">Competitive Analysis</a>
+                        <a href="#interviews" class="nav-link">User Interviews</a>
+                        <a href="#persona" class="nav-link">Persona</a>
+                    </nav>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#moment-solution">Design Overview</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#moment-process">Design Process</a>
+                    <nav class="nav toc-subitems">
+                        <a href="#data-collect" class="nav-link">Data Collection Strategy</a>
+                        <a href="#behavior-change" class="nav-link">Influencing User Behavior</a>
+                        <a href="#physical-proto" class="nav-link">Physical Prototyping</a>
+                    </nav>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#moment-conclusion">Conclusion</a>
+                  </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <footer class="container frontpage-footer">
+        <span>Designed and built by Gary Cheung · garycheu23[at]gmail[dot]com</span>
+    </footer>
+    <script src="../js/caseStudy.js"></script>
+</body>
+</html>

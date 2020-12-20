@@ -1,0 +1,317 @@
+.main-nav {
+    a {
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.15rem;
+    }
+}
+
+.main-nav__items {
+    a {
+        text-transform: uppercase;
+    }
+}
+
+.frontpage-text {
+    h1 {
+        font-size: 5rem;
+        color: white;
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 800;
+
+        span {
+            color: $color-sec-base;
+        }
+    }
+
+    h2 {
+        font-size: 2.65rem;
+        color: white;
+        font-family: ff-tisa-web-pro, serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+}
+
+.frontpage-content {
+    h3, h4, h5, p, a {
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 800;
+        padding-top: 64px;
+        padding-bottom: 48px;
+    }
+
+    h4 {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: $color-main-base;
+    }
+
+    h5 {
+        font-size: 1.15rem;
+        font-weight: 800;
+    }
+
+    a {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: black;
+        padding-bottom: 2px;
+        border-bottom: 3px solid $color-sec-dark;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.about {
+    h1 {
+        font-size: 2rem;
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 800;
+    }
+
+    p {
+        font-family: ff-tisa-web-pro, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+}
+
+.project-info {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+.project-info__label {
+    text-transform: uppercase;
+    display: block;
+}
+
+.case-header__text {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+
+    h1 {
+        font-weight: 800;
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-weight: 800;
+        font-size: 1.75rem;
+        margin-bottom: 48px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 1.75rem;
+    }
+}
+
+.toc {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+
+    a {
+        font-weight: 700;
+        font-size: 0.875rem;
+    }
+
+    .toc-subitems {
+        a {
+            font-weight: 400;
+        }
+    }
+}
+
+.case-body {
+    .case-header, .case-subhead, .case-subsection__header {
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+    }
+
+    .case-header {
+        font-size: 2rem;
+        color: $color-main-base;
+        padding-top: 1rem;
+        padding-bottom: 1.25rem;
+        font-weight: 800;
+    }
+
+    .case-subhead {
+        padding-top: 3.5rem;
+        padding-bottom: 1.25rem;
+        font-size: 1.75rem;
+        font-weight: 800;
+    }
+
+    .case-subsection__header {
+        font-weight: 700;
+        font-size: 1.25rem;
+        margin-top: 48px;
+    }
+
+    .kicker {
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: block;
+    }
+
+    .figure-caption {
+        font-weight: 400;
+    }
+
+    .big-question {
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.75rem;
+        line-height: 1.25;
+    }
+
+    p {
+        font-family: ff-tisa-web-pro, serif;
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 2;
+        font-weight: 400;
+    }
+
+    figcaption {
+        font-family: ff-tisa-web-pro, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.85rem;
+    }
+
+    tr, td {
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.75rem;
+    }
+}
+
+.case-list {
+    li {
+        font-family: ff-tisa-web-pro, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+}
+
+.case-shortlist, .case-collist {
+    li {
+        font-family: ff-tisa-web-pro, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
+
+.case-collist__heading{
+    font-weight: 700;
+}
+
+.bullet-head {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.project-links {
+    h2, h3, h4 {
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 24px 0px;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 800;
+        color: $color-main-base;
+        margin-top: 8px;
+        margin-bottom: 4px;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+}
+
+.btn-primary {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    padding: 16px 32px;
+}
+
+.em-quote {
+    display: block;
+    font-style: italic;
+    font-size: 1.2rem;
+    width: 85%;
+}
+
+.gd-text {
+    h1 {
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-family: ff-tisa-web-pro, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 2;
+    }
+}

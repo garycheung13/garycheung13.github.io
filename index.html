@@ -1,180 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.46" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Gary Cheung UX Designer Portfolio">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700|Open+Sans:400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main-36b7f678.css" />
-    <title>Gary Cheung UX Portfolio</title>
+    <link rel="stylesheet" href="https://use.typekit.net/wwn7wzs.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <title>Gary Cheung Portfolio</title>
 </head>
-<body>
-    <nav class="navbar row space-btwn align-center">
-        <a class="navbar-title" href="./">Gary Cheung</a>
-
-        <button class="btn-hamburger mobile-initially-hidden" role="navigation" id="menu-hamburger">
-            <div class="hamburger-container">
-                <div class="hamburger-icon"></div>
+<body class="background-grey">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light main-nav">
+        <div class="container">
+            <a class="navbar-brand" href="/">Gary Cheung</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav ml-auto main-nav__items">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="docs/resume.pdf">Resume</a>
+                  </li>
+              </ul>
             </div>
-        </button>
-
-        <ul id="navbar-options" class="navbar-mobile navbar-options">
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="./documents/gc-resume-web.pdf">Resume</a></li>
-        </ul>
-    </nav>
-    <header class="header">
-        <div class="wrapper">
-            <h1>Hi, My name is <span class="highlight">Gary.</span></h1>
-            <h2>I am a <span class="highlight">UX designer &amp; researcher</span> that uses a human-centered approach to design delightful experiences.</h2>
+        </div>
+      </nav>
+    <header class="jumbotron jumbotron-fluid frontpage-header d-flex align-items-center">
+        <div class="container">
+            <div class="my-auto">
+                <div class="frontpage-text">
+                    <h1 class="pb-md-4">Hi, My name is <span>Gary</span></h1>
+                    <h2>I am a UX designer and researcher</h2>
+                </div>
+            </div>
         </div>
     </header>
-    <section id="portfolio" class="section wrapper">
-        <h3>Portfolio</h3>
-        <hr>
-        <div class="row">
-            
-                
-                    <div class="col-lg-4 col-sm-12 card">
-    <a href="./project/emx-systems/" class="card-header">
-        <img src="images/cards/emx.png" alt="portfolio item card">
-    </a>
-    <h3>EMX Systems</h3>
-    <h4>UX Research, UX Design</h4>
-    <hr>
-    <p>Designing a medical record exchange system with providers in mind.</p>
-    <a href="./project/emx-systems/">See More &rarr;</a>
-</div>
-                
-            
-                
-                    <div class="col-lg-4 col-sm-12 card">
-    <a href="./project/moment/" class="card-header">
-        <img src="images/cards/moment.png" alt="portfolio item card">
-    </a>
-    <h3>Moment</h3>
-    <h4>UX Research, UX Design</h4>
-    <hr>
-    <p>Designing an wearable and mobile app to manage academic stress.</p>
-    <a href="./project/moment/">See More &rarr;</a>
-</div>
-                
-            
-                
-                    <div class="col-lg-4 col-sm-12 card">
-    <a href="./project/data-driven-detroit/" class="card-header">
-        <img src="images/cards/d3.png" alt="portfolio item card">
-    </a>
-    <h3>Data Driven Detroit</h3>
-    <h4>UX Consulting, UX Research</h4>
-    <hr>
-    <p>Applying user-centered design methods to improve data management for a civic tech startup</p>
-    <a href="./project/data-driven-detroit/">See More &rarr;</a>
-</div>
-                
-            
-                
-                    <div class="col-lg-4 col-sm-12 card">
-    <a href="./project/mcommunity/" class="card-header">
-        <img src="images/cards/mcomm.png" alt="portfolio item card">
-    </a>
-    <h3>MCommunity</h3>
-    <h4>UX Research</h4>
-    <hr>
-    <p>Conducting UX research to improve University of Michigan&#39;s identity management system.</p>
-    <a href="./project/mcommunity/">See More &rarr;</a>
-</div>
-                
-            
-                
-                    <div class="col-lg-4 col-sm-12 card">
-    <a href="./project/aux-catering/" class="card-header">
-        <img src="./images/cards/aux-catering.png" alt="portfolio item card">
-    </a>
-    <h3>Michigan Catering</h3>
-    <h4>Web Development</h4>
-    <hr>
-    <p>A new landing page for University of Michigan Catering</p>
-    <a href="./project/aux-catering/">See More &rarr;</a>
-</div>
-                
-            
-                
-                    <div class="col-lg-4 col-sm-12 card">
-    <a href="./project/data-visualizations/" class="card-header">
-        <img src="images/cards/dataviz.png" alt="portfolio item card">
-    </a>
-    <h3>Explorable Explanations</h3>
-    <h4>Web Development, Data Visualization</h4>
-    <hr>
-    <p>Data visualizations exploring herd immunity and modern art movements.</p>
-    <a href="./project/data-visualizations/">See More &rarr;</a>
-</div>
-                
-            
-                
-                    <div class="col-lg-4 col-sm-12 card">
-    <a href="./project/arkadium-intern/" class="card-header">
-        <img src="images/cards/ark.png" alt="portfolio item card">
-    </a>
-    <h3>Arkadium Internship</h3>
-    <h4>UI Design, Data Visualization</h4>
-    <hr>
-    <p>Data visualization design for Arkadium&#39;s Inhabit.</p>
-    <a href="./project/arkadium-intern/">See More &rarr;</a>
-</div>
-                
-            
-                
-                    <div class="col-lg-4 col-sm-12 card">
-    <a href="./project/gd-collection/" class="card-header">
-        <img src="images/cards/gd.png" alt="portfolio item card">
-    </a>
-    <h3>Graphic Design Collection</h3>
-    <h4>Graphic Design</h4>
-    <hr>
-    <p>Collection of select graphic design pieces.</p>
-    <a href="./project/gd-collection/">See More &rarr;</a>
-</div>
-                
-            
-        </div>
-    </section>
-    <section id="about" class="section about">
-        <div class="wrapper">
-            <h3>About Me</h3>
-            <hr>
+    <section class="container frontpage-content" id="portfolio">
+            <h3>Portfolio</h3>
             <div class="row">
-                <div class="col-lg-9 col-sm-12">
-                    <p> I am a New York-based UX designer and researcher with experience designing for web and mobile. I hold a master’s in human-computer interaction from the University of Michigan and a bachelor’s in psychology from Binghamton University. In the past, I developed websites for the University of Michigan's Auxiliary Marketing team and designed data visualizations as an intern at Arkadium.</p>
-                    <p> I take a human-centered approach to design, keeping both aesthetics and usability in mind to deliver meaningful, delightful experiences. With experiences working as a designer and as a developer, I would be an ideal teammate on multidisciplinary teams.</p>
-                    <p> When I am not working, my hobbies include sketching and drawing (mainly animals).</p>
-                    <p> I am currently looking for a full time position in UX design. If you are looking for a UX designer that brings a versatile skill set, send me an email at garycheu23@<span style="display: none;">null</span>gmail.com!</p>
+                <div class="col-md mb-4">
+                    <div class="card portfolio-card shadow mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-xl-6 align-self-center">
+                                <a href="project/emx-systems.html" class="img-link"><img src="./images/emx-card-small.png" alt=""></a>
+                            </div>
+                            <div class="col-xl-6 p-3">
+                                <h4>EMX Systems</h4>
+                                <h5>UX Research, UX Design</h5>
+                                <p>Redesigning an web portal for more efficient patient record exchange</p>
+                                <a href="project/emx-systems.html" class="text-link">Read More <span class="d-inline-block arrow">&rarr;</span></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-sm-12">
-                    <img src="images/profile.png" alt="">
+                <div class="col-md mb-4">
+                    <div class="card shadow portfolio-card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-xl-6 align-self-center">
+                                <a href="project/moment.html" class="img-link"><img src="./images/moment-card-small.png" alt=""></a>
+                            </div>
+                            <div class="col-xl-6 p-3">
+                                <h4>Moment</h4>
+                                <h5>UX Research, UX Design</h5>
+                                <p>Designing an app for improving stress management habits.</p>
+                                <a href="project/moment.html" class="text-link">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
+            <div class="row">
+                <div class="col-md mb-4">
+                    <div class="card shadow portfolio-card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-xl-6 align-self-center">
+                                <a href="project/mcommunity.html" class="img-link"><img src="./images/mcomm-card-small.png" alt=""></a>
+                            </div>
+                            <div class="col-xl-6 p-3">
+                                <h4>MCommunity</h4>
+                                <h5>UX Research</h5>
+                                <p>Conducting UX research to improve the University of Michigan's person directory.</p>
+                                <a href="project/mcommunity.html" class="text-link">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md mb-4 d-flex">
+                    <div class="card shadow portfolio-card mb-3 flex-fill">
+                        <div class="row no-gutters">
+                            <div class="col-xl-6 align-self-center">
+                                <a href="project/graphic-design.html" class="img-link"><img src="./images/gd-card-small.png" alt=""></a>
+                            </div>
+                            <div class="col-xl-6 p-3">
+                                <h4>Graphic Design</h4>
+                                <p>A collection of my past graphic design focused projects. </p>
+                                <a href="project/graphic-design.html" class="text-link">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
-    <footer class="footer">
-    <div class="wrapper">
-        <h3>Connect with me!</h3>
-        <hr>
-        <ul>
-            <li><a href="https://www.github.com/garycheung13">Github</a></li>
-            <li><a id="footer-email" href="">Email</a></li>
-            <li><a href="https://www.linkedin.com/in/gary-cheung-004001ba/">Linkedin</a></li>
-        </ul>
-    </div>
-</footer>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"></script>
-    
-    <script src="./js/footer-d2950f95.js" type="text/javascript"></script>
+    <footer class="container frontpage-footer">
+        <span>Designed and built by Gary Cheung · garycheu23[at]gmail[dot]com</span>
+    </footer>
 </body>
 </html>
